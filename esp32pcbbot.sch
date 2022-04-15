@@ -14,18 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Espressif:ESP32-WROOM-32E U3
-U 1 1 62575EEF
-P 7450 3900
-F 0 "U3" H 7475 5715 50  0000 C CNN
-F 1 "ESP32-WROOM-32E" H 7475 5624 50  0000 C CNN
-F 2 "Espressif:ESP32-WROOM-32E" H 7450 2150 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf" H 7850 3900 50  0001 C CNN
-	1    7450 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Interface_USB:CP2102N-A01-GQFN28 U2
+L esp32pcbbot-rescue:CP2102N-A01-GQFN28-Interface_USB U2
 U 1 1 62578773
 P 4100 3950
 F 0 "U2" H 4100 2561 50  0000 C CNN
@@ -124,7 +113,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 3350 6100 3350
 $Comp
-L Type-C:HRO-TYPE-C-31-M-12 USB1
+L esp32pcbbot-rescue:HRO-TYPE-C-31-M-12-Type-C USB1
 U 1 1 625B1879
 P 1650 3850
 F 0 "USB1" H 1483 4647 60  0000 C CNN
@@ -285,4 +274,15 @@ Wire Wire Line
 	5450 3050 5450 3250
 Wire Wire Line
 	5450 3250 6100 3250
+$Comp
+L esp32pcbbot-rescue:ESP32-WROOM-32E-Espressif U1
+U 1 1 625BF35E
+P 7450 3900
+F 0 "U1" H 7475 5715 50  0000 C CNN
+F 1 "ESP32-WROOM-32E-Espressif" H 7475 5624 50  0000 C CNN
+F 2 "Espressif:ESP32-WROOM-32E" H 7450 2150 50  0001 C CNN
+F 3 "" H 7850 3900 50  0001 C CNN
+	1    7450 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

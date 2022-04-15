@@ -1,4 +1,288 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L esp32pcbbot-rescue:CP2102N-A01-GQFN28-Interface_USB U2
+U 1 1 62578773
+P 4100 3950
+F 0 "U2" H 4100 2561 50  0000 C CNN
+F 1 "CP2102N-A01-GQFN28" H 4100 2470 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 4550 2750 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 4150 3200 50  0001 C CNN
+	1    4100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q1
+U 1 1 6257EE5E
+P 4900 1650
+F 0 "Q1" H 5104 1696 50  0000 L CNN
+F 1 "2N7002" H 5104 1605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5100 1575 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4900 1650 50  0001 L CNN
+	1    4900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3350 4750 3350
+Wire Wire Line
+	4100 2550 4100 1850
+Wire Wire Line
+	4100 1850 5000 1850
+Wire Wire Line
+	4750 2550 4100 2550
+Wire Wire Line
+	4750 3350 4750 2550
+$Comp
+L Transistor_FET:2N7002 Q2
+U 1 1 62580DAA
+P 5100 2200
+F 0 "Q2" H 5305 2154 50  0000 L CNN
+F 1 "2N7002" H 5305 2245 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 2125 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 5100 2200 50  0001 L CNN
+	1    5100 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 62599C28
+P 4300 1650
+F 0 "R3" V 4093 1650 50  0000 C CNN
+F 1 "10k" V 4184 1650 50  0000 C CNN
+F 2 "" V 4230 1650 50  0001 C CNN
+F 3 "~" H 4300 1650 50  0001 C CNN
+	1    4300 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6259A8BA
+P 5600 2200
+F 0 "R4" V 5393 2200 50  0000 C CNN
+F 1 "10k" V 5484 2200 50  0000 C CNN
+F 2 "" V 5530 2200 50  0001 C CNN
+F 3 "~" H 5600 2200 50  0001 C CNN
+	1    5600 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 1850 5850 1850
+Wire Wire Line
+	5850 1850 5850 2200
+Wire Wire Line
+	5850 2200 5750 2200
+Connection ~ 5000 1850
+Wire Wire Line
+	5300 2200 5450 2200
+Wire Wire Line
+	5000 2400 5000 2900
+Wire Wire Line
+	5000 2900 6100 2900
+Wire Wire Line
+	5000 2000 4850 2000
+Wire Wire Line
+	4850 2000 4850 2950
+Wire Wire Line
+	4850 2950 4600 2950
+Wire Wire Line
+	4850 2000 3800 2000
+Wire Wire Line
+	3800 2000 3800 1650
+Wire Wire Line
+	3800 1650 4150 1650
+Connection ~ 4850 2000
+Wire Wire Line
+	4450 1650 4700 1650
+Wire Wire Line
+	5000 1450 5900 1450
+Wire Wire Line
+	5900 1450 5900 3350
+Wire Wire Line
+	5900 3350 6100 3350
+$Comp
+L esp32pcbbot-rescue:HRO-TYPE-C-31-M-12-Type-C USB1
+U 1 1 625B1879
+P 1650 3850
+F 0 "USB1" H 1483 4647 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 1483 4541 60  0000 C CNN
+F 2 "" H 1650 3850 60  0001 C CNN
+F 3 "" H 1650 3850 60  0001 C CNN
+	1    1650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 625B51B6
+P 2000 5300
+F 0 "#PWR?" H 2000 5050 50  0001 C CNN
+F 1 "GND" H 2005 5127 50  0000 C CNN
+F 2 "" H 2000 5300 50  0001 C CNN
+F 3 "" H 2000 5300 50  0001 C CNN
+	1    2000 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3300 2000 3300
+Wire Wire Line
+	2000 3300 2000 4500
+Wire Wire Line
+	1750 4500 1850 4500
+Wire Wire Line
+	1750 4400 1850 4400
+Wire Wire Line
+	1850 4400 1850 4500
+Connection ~ 1850 4500
+Wire Wire Line
+	1850 4500 2000 4500
+$Comp
+L power:+5V #PWR?
+U 1 1 625BDF49
+P 2350 3000
+F 0 "#PWR?" H 2350 2850 50  0001 C CNN
+F 1 "+5V" H 2365 3173 50  0000 C CNN
+F 2 "" H 2350 3000 50  0001 C CNN
+F 3 "" H 2350 3000 50  0001 C CNN
+	1    2350 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3000 2350 3400
+Wire Wire Line
+	2350 3400 1750 3400
+Wire Wire Line
+	2350 3400 2350 4300
+Wire Wire Line
+	2350 4300 1750 4300
+Connection ~ 2350 3400
+Wire Wire Line
+	1750 3800 1900 3800
+Wire Wire Line
+	2900 3800 2900 3350
+Wire Wire Line
+	2900 3350 3600 3350
+Wire Wire Line
+	1750 4000 1900 4000
+Wire Wire Line
+	1900 4000 1900 3800
+Connection ~ 1900 3800
+Wire Wire Line
+	1900 3800 2900 3800
+Wire Wire Line
+	1750 3700 2200 3700
+Wire Wire Line
+	2700 3700 2700 3450
+Wire Wire Line
+	2700 3450 3600 3450
+Wire Wire Line
+	1750 3900 2200 3900
+Wire Wire Line
+	2200 3900 2200 3700
+Connection ~ 2200 3700
+Wire Wire Line
+	2200 3700 2700 3700
+$Comp
+L Device:R R1
+U 1 1 625CC194
+P 2500 4700
+F 0 "R1" H 2570 4746 50  0000 L CNN
+F 1 "5.11k" H 2570 4655 50  0000 L CNN
+F 2 "" V 2430 4700 50  0001 C CNN
+F 3 "~" H 2500 4700 50  0001 C CNN
+	1    2500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 625CCAD9
+P 2950 4700
+F 0 "R2" H 3020 4746 50  0000 L CNN
+F 1 "5.11k" H 3020 4655 50  0000 L CNN
+F 2 "" V 2880 4700 50  0001 C CNN
+F 3 "~" H 2950 4700 50  0001 C CNN
+	1    2950 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3600 2500 3600
+Wire Wire Line
+	2500 3600 2500 4550
+Wire Wire Line
+	2950 4200 2950 4550
+Wire Wire Line
+	2000 4500 2000 4950
+Connection ~ 2000 4500
+Wire Wire Line
+	2500 4850 2500 4950
+Wire Wire Line
+	2500 4950 2000 4950
+Connection ~ 2000 4950
+Wire Wire Line
+	2000 4950 2000 5300
+Wire Wire Line
+	2950 4850 2950 4950
+Connection ~ 2500 4950
+Wire Wire Line
+	1750 4200 2950 4200
+Wire Wire Line
+	2500 4950 2950 4950
+$Comp
+L power:+5V #PWR?
+U 1 1 625E73F9
+P 3250 2950
+F 0 "#PWR?" H 3250 2800 50  0001 C CNN
+F 1 "+5V" H 3265 3123 50  0000 C CNN
+F 2 "" H 3250 2950 50  0001 C CNN
+F 3 "" H 3250 2950 50  0001 C CNN
+	1    3250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3050 3250 3050
+Wire Wire Line
+	3250 3050 3250 2950
+$Comp
+L power:GND #PWR?
+U 1 1 625F5B7F
+P 4100 5900
+F 0 "#PWR?" H 4100 5650 50  0001 C CNN
+F 1 "GND" H 4105 5727 50  0000 C CNN
+F 2 "" H 4100 5900 50  0001 C CNN
+F 3 "" H 4100 5900 50  0001 C CNN
+	1    4100 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 5250 4100 5900
+Wire Wire Line
+	4600 3150 6100 3150
+Wire Wire Line
+	4600 3050 5450 3050
+Wire Wire Line
+	5450 3050 5450 3250
+Wire Wire Line
+	5450 3250 6100 3250
+$Comp
+L esp32pcbbot-rescue:ESP32-WROOM-32E-Espressif U1
+U 1 1 625BF35E
+P 7450 3900
+F 0 "U1" H 7475 5715 50  0000 C CNN
+F 1 "ESP32-WROOM-32E-Espressif" H 7475 5624 50  0000 C CNN
+F 2 "Espressif:ESP32-WROOM-32E" H 7450 2150 50  0001 C CNN
+F 3 "" H 7850 3900 50  0001 C CNN
+	1    7450 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

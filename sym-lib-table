@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name esp32pcbbot-rescue)(type Legacy)(uri ${KIPRJMOD}/esp32pcbbot-rescue.lib)(options "")(descr ""))
+)
