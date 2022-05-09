@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -38,13 +38,9 @@ $EndComp
 Wire Wire Line
 	4600 3350 4750 3350
 Wire Wire Line
-	4100 2550 4100 1850
-Wire Wire Line
 	4100 1850 5000 1850
 Wire Wire Line
-	4750 2550 4100 2550
-Wire Wire Line
-	4750 3350 4750 2550
+	4750 3350 4750 2400
 $Comp
 L Transistor_FET:2N7002 Q2
 U 1 1 62580DAA
@@ -90,8 +86,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 2400 5000 2900
 Wire Wire Line
-	5000 2900 6100 2900
-Wire Wire Line
 	5000 2000 4850 2000
 Wire Wire Line
 	4850 2000 4850 2950
@@ -110,8 +104,6 @@ Wire Wire Line
 	5000 1450 5900 1450
 Wire Wire Line
 	5900 1450 5900 3350
-Wire Wire Line
-	5900 3350 6100 3350
 $Comp
 L esp32pcbbot-rescue:HRO-TYPE-C-31-M-12-Type-C USB1
 U 1 1 625B1879
@@ -147,26 +139,12 @@ Wire Wire Line
 Connection ~ 1850 4500
 Wire Wire Line
 	1850 4500 2000 4500
-$Comp
-L power:+5V #PWR?
-U 1 1 625BDF49
-P 2350 3000
-F 0 "#PWR?" H 2350 2850 50  0001 C CNN
-F 1 "+5V" H 2365 3173 50  0000 C CNN
-F 2 "" H 2350 3000 50  0001 C CNN
-F 3 "" H 2350 3000 50  0001 C CNN
-	1    2350 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 3000 2350 3400
 Wire Wire Line
 	2350 3400 1750 3400
 Wire Wire Line
 	2350 3400 2350 4300
 Wire Wire Line
 	2350 4300 1750 4300
-Connection ~ 2350 3400
 Wire Wire Line
 	1750 3800 1900 3800
 Wire Wire Line
@@ -267,13 +245,337 @@ $EndComp
 Wire Wire Line
 	4100 5250 4100 5900
 Wire Wire Line
-	4600 3150 6100 3150
-Wire Wire Line
 	4600 3050 5450 3050
 Wire Wire Line
 	5450 3050 5450 3250
 Wire Wire Line
+	5900 3350 6100 3350
+Wire Wire Line
 	5450 3250 6100 3250
+Wire Wire Line
+	4600 3150 6100 3150
+Wire Wire Line
+	5000 2900 6100 2900
+Text Notes 7100 5650 0    50   ~ 0
+(He Lives Within WIFI)
+$Comp
+L LM3940IMP-3.3_NOPB:LM3940IMP-3.3_NOPB VR?
+U 1 1 62706A8B
+P 2700 1250
+F 0 "VR?" H 2700 1617 50  0000 C CNN
+F 1 "LM3940IMP-3.3_NOPB" H 2700 1526 50  0000 C CNN
+F 2 "VREG_LM3940IMP-3.3/NOPB" H 2700 1250 50  0001 L BNN
+F 3 "" H 2700 1250 50  0001 L BNN
+F 4 "Texas Instruments" H 2700 1250 50  0001 L BNN "MANUFACTURER"
+F 5 "1.80 mm" H 2700 1250 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "G" H 2700 1250 50  0001 L BNN "PARTREV"
+F 7 "Manufacturer Recommendations" H 2700 1250 50  0001 L BNN "STANDARD"
+	1    2700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6270723E
+P 3500 1800
+F 0 "#PWR?" H 3500 1550 50  0001 C CNN
+F 1 "GND" H 3505 1627 50  0000 C CNN
+F 2 "" H 3500 1800 50  0001 C CNN
+F 3 "" H 3500 1800 50  0001 C CNN
+	1    3500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 627077F0
+P 1800 950
+F 0 "#PWR?" H 1800 800 50  0001 C CNN
+F 1 "+5V" H 1815 1123 50  0000 C CNN
+F 2 "" H 1800 950 50  0001 C CNN
+F 3 "" H 1800 950 50  0001 C CNN
+	1    1800 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62707D54
+P 3450 950
+F 0 "#PWR?" H 3450 800 50  0001 C CNN
+F 1 "+3.3V" H 3465 1123 50  0000 C CNN
+F 2 "" H 3450 950 50  0001 C CNN
+F 3 "" H 3450 950 50  0001 C CNN
+	1    3450 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 950  3450 1150
+Wire Wire Line
+	3450 1150 3400 1150
+Wire Wire Line
+	3400 1350 3500 1350
+Wire Wire Line
+	3500 1350 3500 1450
+Wire Wire Line
+	3400 1450 3500 1450
+Connection ~ 3500 1450
+Wire Wire Line
+	3500 1450 3500 1800
+Wire Wire Line
+	2000 1150 1800 1150
+Wire Wire Line
+	1800 1150 1800 950 
+Wire Wire Line
+	4100 2400 4100 1850
+Wire Wire Line
+	4750 2400 4100 2400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62712D70
+P 3600 2450
+F 0 "#PWR?" H 3600 2300 50  0001 C CNN
+F 1 "+3.3V" H 3615 2623 50  0000 C CNN
+F 2 "" H 3600 2450 50  0001 C CNN
+F 3 "" H 3600 2450 50  0001 C CNN
+	1    3600 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2450 3600 2550
+Wire Wire Line
+	3600 2550 4000 2550
+Wire Wire Line
+	4100 2550 4100 2650
+Wire Wire Line
+	4000 2650 4000 2550
+Connection ~ 4000 2550
+Wire Wire Line
+	4000 2550 4100 2550
+$Comp
+L SamacSys_Parts:JS202011SCQN S1
+U 1 1 6271E714
+P 7350 1550
+F 0 "S1" H 7750 1815 50  0000 C CNN
+F 1 "JS202011SCQN" H 7750 1724 50  0000 C CNN
+F 2 "JS202011SCQN" H 8000 1650 50  0001 L CNN
+F 3 "http://www.ckswitches.com/media/1422/js.pdf" H 8000 1550 50  0001 L CNN
+F 4 "Sub miniature slide switches" H 8000 1450 50  0001 L CNN "Description"
+F 5 "5.5" H 8000 1350 50  0001 L CNN "Height"
+F 6 "C & K COMPONENTS" H 8000 1250 50  0001 L CNN "Manufacturer_Name"
+F 7 "JS202011SCQN" H 8000 1150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "611-JS202011SCQN" H 8000 1050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/CK/JS202011SCQN?qs=LgMIjt8LuD95JYWxZ7NvZA%3D%3D" H 8000 950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "JS202011SCQN" H 8000 850 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/js202011scqn/ck?region=nac" H 8000 750 50  0001 L CNN "Arrow Price/Stock"
+	1    7350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 62730C59
+P 2000 2900
+F 0 "#PWR?" H 2000 2750 50  0001 C CNN
+F 1 "VBUS" H 2015 3073 50  0000 C CNN
+F 2 "" H 2000 2900 50  0001 C CNN
+F 3 "" H 2000 2900 50  0001 C CNN
+	1    2000 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2900 2000 3300
+Connection ~ 2000 3300
+$Comp
+L power:VBUS #PWR?
+U 1 1 627339C3
+P 7000 1450
+F 0 "#PWR?" H 7000 1300 50  0001 C CNN
+F 1 "VBUS" H 7015 1623 50  0000 C CNN
+F 2 "" H 7000 1450 50  0001 C CNN
+F 3 "" H 7000 1450 50  0001 C CNN
+	1    7000 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 1650 7000 1650
+Wire Wire Line
+	7000 1650 7000 1450
+Wire Wire Line
+	7350 1550 7250 1550
+Wire Wire Line
+	7250 1550 7250 1100
+Wire Wire Line
+	8150 1550 8250 1550
+Wire Wire Line
+	8250 1550 8250 1100
+$Comp
+L power:+BATT #PWR?
+U 1 1 6273E814
+P 8450 1450
+F 0 "#PWR?" H 8450 1300 50  0001 C CNN
+F 1 "+BATT" H 8465 1623 50  0000 C CNN
+F 2 "" H 8450 1450 50  0001 C CNN
+F 3 "" H 8450 1450 50  0001 C CNN
+	1    8450 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 1450 8450 1650
+Wire Wire Line
+	8450 1650 8150 1650
+$Comp
+L power:+5V #PWR?
+U 1 1 62736F0C
+P 7750 950
+F 0 "#PWR?" H 7750 800 50  0001 C CNN
+F 1 "+5V" H 7765 1123 50  0000 C CNN
+F 2 "" H 7750 950 50  0001 C CNN
+F 3 "" H 7750 950 50  0001 C CNN
+	1    7750 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1100 7750 1100
+Wire Wire Line
+	7750 1100 7750 950 
+Wire Wire Line
+	8250 1100 7750 1100
+Connection ~ 7750 1100
+Wire Wire Line
+	6600 1450 6600 1650
+Wire Wire Line
+	6600 1650 7000 1650
+Connection ~ 7000 1650
+$Comp
+L power:GND #PWR?
+U 1 1 62775D30
+P 12700 4650
+F 0 "#PWR?" H 12700 4400 50  0001 C CNN
+F 1 "GND" H 12705 4477 50  0000 C CNN
+F 2 "" H 12700 4650 50  0001 C CNN
+F 3 "" H 12700 4650 50  0001 C CNN
+	1    12700 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 3100 12700 3300
+Connection ~ 12700 3300
+Wire Wire Line
+	12700 3300 12700 3500
+Connection ~ 12700 3500
+Wire Wire Line
+	12700 3500 12700 4650
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62788D8B
+P 5700 5200
+F 0 "#PWR?" H 5700 5050 50  0001 C CNN
+F 1 "+3V3" H 5715 5373 50  0000 C CNN
+F 2 "" H 5700 5200 50  0001 C CNN
+F 3 "" H 5700 5200 50  0001 C CNN
+	1    5700 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5200 5700 5300
+Wire Wire Line
+	5700 5300 6100 5300
+$Comp
+L power:BATT_CHG #PWR?
+U 1 1 6279547F
+P 6600 1450
+F 0 "#PWR?" H 6600 1300 50  0001 C CNN
+F 1 "BATT_CHG" H 6615 1623 50  0000 C CNN
+F 2 "" H 6600 1450 50  0001 C CNN
+F 3 "" H 6600 1450 50  0001 C CNN
+	1    6600 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 4200 10800 3700
+$Comp
+L power:+3V3 #PWR?
+U 1 1 627A6CF4
+P 10900 3300
+F 0 "#PWR?" H 10900 3150 50  0001 C CNN
+F 1 "+3V3" H 10915 3473 50  0000 C CNN
+F 2 "" H 10900 3300 50  0001 C CNN
+F 3 "" H 10900 3300 50  0001 C CNN
+	1    10900 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 3400 10900 3400
+Wire Wire Line
+	10900 3400 10900 3300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 627AC94B
+P 12900 2900
+F 0 "#PWR?" H 12900 2750 50  0001 C CNN
+F 1 "+3V3" H 12915 3073 50  0000 C CNN
+F 2 "" H 12900 2900 50  0001 C CNN
+F 3 "" H 12900 2900 50  0001 C CNN
+	1    12900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 2900 12900 3200
+Connection ~ 12900 3200
+Wire Wire Line
+	12900 3200 12900 3600
+Wire Wire Line
+	10800 4200 11850 4200
+Wire Wire Line
+	12900 3600 12450 3600
+Wire Wire Line
+	12450 3500 12700 3500
+Wire Wire Line
+	12450 3300 12700 3300
+Wire Wire Line
+	12450 3200 12900 3200
+Wire Wire Line
+	12450 3100 12700 3100
+$Comp
+L power:GND #PWR?
+U 1 1 627BE13D
+P 11050 3800
+F 0 "#PWR?" H 11050 3550 50  0001 C CNN
+F 1 "GND" H 11055 3627 50  0000 C CNN
+F 2 "" H 11050 3800 50  0001 C CNN
+F 3 "" H 11050 3800 50  0001 C CNN
+	1    11050 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:BMI055 IC?
+U 1 1 627739B1
+P 11250 3000
+F 0 "IC?" H 11850 3781 50  0000 C CNN
+F 1 "BMI055" H 11850 3690 50  0000 C CNN
+F 2 "BMI055" H 12300 3400 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/129773.pdf" H 12300 3300 50  0001 L CNN
+F 4 "IMUs - Inertial Measurement Units 6-Axis Inertia 3x4.5mm LGA-16" H 12300 3200 50  0001 L CNN "Description"
+F 5 "" H 12300 3100 50  0001 L CNN "Height"
+F 6 "Bosch Sensortec" H 12300 3000 50  0001 L CNN "Manufacturer_Name"
+F 7 "BMI055" H 12300 2900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "262-BMI055" H 12300 2800 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMI055?qs=d72FGnIDsgRto2b9Ru3roQ%3D%3D" H 12300 2700 50  0001 L CNN "Mouser Price/Stock"
+F 10 "BMI055" H 12300 2600 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/bmi055/bosch" H 12300 2500 50  0001 L CNN "Arrow Price/Stock"
+	1    11250 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 3500 11050 3500
+Wire Wire Line
+	11050 3500 11050 3800
+Wire Wire Line
+	11250 3000 11050 3000
+Wire Wire Line
+	11050 3000 11050 3500
+Connection ~ 11050 3500
+Wire Wire Line
+	10800 3700 8850 3700
+Wire Wire Line
+	8850 3600 11250 3600
 $Comp
 L esp32pcbbot-rescue:ESP32-WROOM-32E-Espressif U1
 U 1 1 625BF35E
@@ -285,4 +587,6 @@ F 3 "" H 7850 3900 50  0001 C CNN
 	1    7450 3900
 	1    0    0    -1  
 $EndComp
+Text Notes 7250 5550 0    50   ~ 0
+HAIL THURSDAY!\n
 $EndSCHEMATC

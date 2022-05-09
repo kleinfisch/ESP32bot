@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name esp32pcbbot-rescue)(type Legacy)(uri ${KIPRJMOD}/esp32pcbbot-rescue.lib)(options "")(descr ""))
+  (lib (name LM3940IMP-3.3_NOPB)(type Legacy)(uri C:/Users/IEFis/Downloads/LM3940IMP-3.3_NOPB/LM3940IMP-3.3_NOPB.lib)(options "")(descr ""))
 )
