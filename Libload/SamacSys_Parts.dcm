@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP JS202011SCQN
+D Sub miniature slide switches
+K
+F http://www.ckswitches.com/media/1422/js.pdf
+$ENDCMP
+#
+$CMP BMI055
+D IMUs - Inertial Measurement Units 6-Axis Inertia 3x4.5mm LGA-16
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/129773.pdf
+$ENDCMP
+#
+$CMP SSQ-111-03-G-D
+D 22 Position, .100&quot; Tiger Buy&trade; Socket Strip, Square Tail
+K
+F http://suddendocs.samtec.com/prints/ssq-1xx-xx-xxx-x-xx-xxx-xx-x-mkt.pdf
+$ENDCMP
+#
+$CMP SSQ-120-01-L-D
+D 40 Position, .100&quot; Tiger Buy&trade; Socket Strip, Square Tail
+K
+F http://suddendocs.samtec.com/prints/ssq-1xx-xx-xxx-x-xx-xxx-xx-x-mkt.pdf
+$ENDCMP
+#
+#End Doc Library

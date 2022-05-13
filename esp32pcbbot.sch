@@ -249,13 +249,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 3050 5450 3250
 Wire Wire Line
-	5900 3350 6100 3350
-Wire Wire Line
-	5450 3250 6100 3250
-Wire Wire Line
-	4600 3150 6100 3150
-Wire Wire Line
-	5000 2900 6100 2900
+	4600 3150 5250 3150
 Text Notes 7100 5650 0    50   ~ 0
 (He Lives Within WIFI)
 $Comp
@@ -444,39 +438,16 @@ Wire Wire Line
 	6600 1650 7000 1650
 Connection ~ 7000 1650
 $Comp
-L power:GND #PWR?
-U 1 1 62775D30
-P 12700 4650
-F 0 "#PWR?" H 12700 4400 50  0001 C CNN
-F 1 "GND" H 12705 4477 50  0000 C CNN
-F 2 "" H 12700 4650 50  0001 C CNN
-F 3 "" H 12700 4650 50  0001 C CNN
-	1    12700 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12700 3100 12700 3300
-Connection ~ 12700 3300
-Wire Wire Line
-	12700 3300 12700 3500
-Connection ~ 12700 3500
-Wire Wire Line
-	12700 3500 12700 4650
-$Comp
 L power:+3V3 #PWR?
 U 1 1 62788D8B
-P 5700 5200
-F 0 "#PWR?" H 5700 5050 50  0001 C CNN
-F 1 "+3V3" H 5715 5373 50  0000 C CNN
-F 2 "" H 5700 5200 50  0001 C CNN
-F 3 "" H 5700 5200 50  0001 C CNN
-	1    5700 5200
+P 6300 5200
+F 0 "#PWR?" H 6300 5050 50  0001 C CNN
+F 1 "+3V3" H 6315 5373 50  0000 C CNN
+F 2 "" H 6300 5200 50  0001 C CNN
+F 3 "" H 6300 5200 50  0001 C CNN
+	1    6300 5200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5700 5200 5700 5300
-Wire Wire Line
-	5700 5300 6100 5300
 $Comp
 L power:BATT_CHG #PWR?
 U 1 1 6279547F
@@ -488,105 +459,449 @@ F 3 "" H 6600 1450 50  0001 C CNN
 	1    6600 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10800 4200 10800 3700
-$Comp
-L power:+3V3 #PWR?
-U 1 1 627A6CF4
-P 10900 3300
-F 0 "#PWR?" H 10900 3150 50  0001 C CNN
-F 1 "+3V3" H 10915 3473 50  0000 C CNN
-F 2 "" H 10900 3300 50  0001 C CNN
-F 3 "" H 10900 3300 50  0001 C CNN
-	1    10900 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11250 3400 10900 3400
-Wire Wire Line
-	10900 3400 10900 3300
-$Comp
-L power:+3V3 #PWR?
-U 1 1 627AC94B
-P 12900 2900
-F 0 "#PWR?" H 12900 2750 50  0001 C CNN
-F 1 "+3V3" H 12915 3073 50  0000 C CNN
-F 2 "" H 12900 2900 50  0001 C CNN
-F 3 "" H 12900 2900 50  0001 C CNN
-	1    12900 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12900 2900 12900 3200
-Connection ~ 12900 3200
-Wire Wire Line
-	12900 3200 12900 3600
-Wire Wire Line
-	10800 4200 11850 4200
-Wire Wire Line
-	12900 3600 12450 3600
-Wire Wire Line
-	12450 3500 12700 3500
-Wire Wire Line
-	12450 3300 12700 3300
-Wire Wire Line
-	12450 3200 12900 3200
-Wire Wire Line
-	12450 3100 12700 3100
-$Comp
-L power:GND #PWR?
-U 1 1 627BE13D
-P 11050 3800
-F 0 "#PWR?" H 11050 3550 50  0001 C CNN
-F 1 "GND" H 11055 3627 50  0000 C CNN
-F 2 "" H 11050 3800 50  0001 C CNN
-F 3 "" H 11050 3800 50  0001 C CNN
-	1    11050 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L SamacSys_Parts:BMI055 IC?
-U 1 1 627739B1
-P 11250 3000
-F 0 "IC?" H 11850 3781 50  0000 C CNN
-F 1 "BMI055" H 11850 3690 50  0000 C CNN
-F 2 "BMI055" H 12300 3400 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/129773.pdf" H 12300 3300 50  0001 L CNN
-F 4 "IMUs - Inertial Measurement Units 6-Axis Inertia 3x4.5mm LGA-16" H 12300 3200 50  0001 L CNN "Description"
-F 5 "" H 12300 3100 50  0001 L CNN "Height"
-F 6 "Bosch Sensortec" H 12300 3000 50  0001 L CNN "Manufacturer_Name"
-F 7 "BMI055" H 12300 2900 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "262-BMI055" H 12300 2800 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMI055?qs=d72FGnIDsgRto2b9Ru3roQ%3D%3D" H 12300 2700 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BMI055" H 12300 2600 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bmi055/bosch" H 12300 2500 50  0001 L CNN "Arrow Price/Stock"
-	1    11250 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11250 3500 11050 3500
-Wire Wire Line
-	11050 3500 11050 3800
-Wire Wire Line
-	11250 3000 11050 3000
-Wire Wire Line
-	11050 3000 11050 3500
-Connection ~ 11050 3500
-Wire Wire Line
-	10800 3700 8850 3700
-Wire Wire Line
-	8850 3600 11250 3600
 $Comp
 L esp32pcbbot-rescue:ESP32-WROOM-32E-Espressif U1
 U 1 1 625BF35E
-P 7450 3900
-F 0 "U1" H 7475 5715 50  0000 C CNN
-F 1 "ESP32-WROOM-32E-Espressif" H 7475 5624 50  0000 C CNN
-F 2 "Espressif:ESP32-WROOM-32E" H 7450 2150 50  0001 C CNN
-F 3 "" H 7850 3900 50  0001 C CNN
-	1    7450 3900
+P 7700 3900
+F 0 "U1" H 7725 5715 50  0000 C CNN
+F 1 "ESP32-WROOM-32E-Espressif" H 7725 5624 50  0000 C CNN
+F 2 "Espressif:ESP32-WROOM-32E" H 7700 2150 50  0001 C CNN
+F 3 "" H 8100 3900 50  0001 C CNN
+	1    7700 3900
 	1    0    0    -1  
 $EndComp
 Text Notes 7250 5550 0    50   ~ 0
 HAIL THURSDAY!\n
+Wire Wire Line
+	5000 2900 5100 2900
+Connection ~ 5100 2900
+Connection ~ 5250 3150
+Connection ~ 5450 3250
+Wire Wire Line
+	5900 3350 5500 3350
+Connection ~ 5900 3350
+Wire Wire Line
+	6300 5300 6300 5200
+Wire Wire Line
+	9100 3600 10350 3600
+Wire Wire Line
+	5100 2900 6350 2900
+Wire Wire Line
+	5250 3150 6350 3150
+Wire Wire Line
+	5450 3250 6350 3250
+Wire Wire Line
+	5900 3350 6350 3350
+Wire Wire Line
+	5550 3550 6350 3550
+Wire Wire Line
+	5600 3650 6350 3650
+Wire Wire Line
+	5650 3750 6350 3750
+Wire Wire Line
+	5700 3850 6350 3850
+Wire Wire Line
+	5750 4150 6350 4150
+Wire Wire Line
+	5800 4350 6350 4350
+Wire Wire Line
+	6350 5300 6300 5300
+Wire Wire Line
+	6350 4650 5850 4650
+Wire Wire Line
+	6350 4750 5900 4750
+Wire Wire Line
+	6350 4850 5950 4850
+Wire Wire Line
+	6350 4950 6000 4950
+Wire Wire Line
+	9100 2900 10700 2900
+Wire Wire Line
+	10700 2900 10700 8650
+Wire Wire Line
+	9100 3000 10650 3000
+Wire Wire Line
+	10650 3000 10650 8550
+Wire Wire Line
+	9100 3100 10600 3100
+Wire Wire Line
+	10600 3100 10600 8450
+Wire Wire Line
+	9100 3200 10550 3200
+Wire Wire Line
+	10550 3200 10550 8350
+Wire Wire Line
+	9100 3300 10500 3300
+Wire Wire Line
+	10500 3300 10500 8250
+Wire Wire Line
+	9100 3400 10450 3400
+Wire Wire Line
+	10450 3400 10450 8150
+Wire Wire Line
+	9100 3500 10400 3500
+Wire Wire Line
+	10400 3500 10400 8050
+Wire Wire Line
+	10350 3600 10350 7950
+Wire Wire Line
+	10300 3700 10300 7850
+Wire Wire Line
+	10300 3700 9100 3700
+Wire Wire Line
+	9100 3800 10250 3800
+Wire Wire Line
+	10250 3800 10250 7750
+Wire Wire Line
+	9100 3900 10200 3900
+Wire Wire Line
+	10200 3900 10200 7650
+Wire Wire Line
+	9100 4000 10150 4000
+Wire Wire Line
+	10150 4000 10150 7550
+Wire Wire Line
+	9100 4100 10100 4100
+Wire Wire Line
+	10100 4100 10100 7450
+Wire Wire Line
+	10700 8650 8000 8650
+Wire Wire Line
+	10650 8550 8000 8550
+Wire Wire Line
+	10600 8450 8000 8450
+Wire Wire Line
+	10550 8350 8000 8350
+Wire Wire Line
+	10500 8250 8000 8250
+Wire Wire Line
+	10450 8150 8000 8150
+Wire Wire Line
+	10400 8050 8000 8050
+Wire Wire Line
+	10350 7950 8000 7950
+Wire Wire Line
+	10300 7850 8000 7850
+Wire Wire Line
+	10250 7750 8000 7750
+Wire Wire Line
+	10200 7650 8000 7650
+Wire Wire Line
+	10150 7550 8000 7550
+Wire Wire Line
+	10100 7450 8000 7450
+Wire Wire Line
+	5800 7850 7100 7850
+Wire Wire Line
+	5750 7950 7100 7950
+Wire Wire Line
+	5700 8050 7100 8050
+Wire Wire Line
+	5650 8150 7100 8150
+Wire Wire Line
+	5600 8250 7100 8250
+Wire Wire Line
+	5550 8350 7100 8350
+Wire Wire Line
+	5500 8450 7100 8450
+Wire Wire Line
+	5450 8550 7100 8550
+Wire Wire Line
+	5250 8650 7100 8650
+Wire Wire Line
+	5100 8750 7100 8750
+$Comp
+L SamacSys_Parts:SSQ-120-01-L-D J?
+U 1 1 628FE724
+P 7100 7050
+F 0 "J?" H 7550 7315 50  0000 C CNN
+F 1 "SSQ-120-01-L-D" H 7550 7224 50  0000 C CNN
+F 2 "SSQ-120-XX-YYY-D" H 7850 7150 50  0001 L CNN
+F 3 "http://suddendocs.samtec.com/prints/ssq-1xx-xx-xxx-x-xx-xxx-xx-x-mkt.pdf" H 7850 7050 50  0001 L CNN
+F 4 "40 Position, .100&quot; Tiger Buy&trade; Socket Strip, Square Tail" H 7850 6950 50  0001 L CNN "Description"
+F 5 "" H 7850 6850 50  0001 L CNN "Height"
+F 6 "SAMTEC" H 7850 6750 50  0001 L CNN "Manufacturer_Name"
+F 7 "SSQ-120-01-L-D" H 7850 6650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "200-SSQ12001LD" H 7850 6550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Samtec/SSQ-120-01-L-D?qs=%252BZP6%2F%252BtExtDg5xp9qJK50A%3D%3D" H 7850 6450 50  0001 L CNN "Mouser Price/Stock"
+F 10 "SSQ-120-01-L-D" H 7850 6350 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ssq-120-01-l-d/samtec" H 7850 6250 50  0001 L CNN "Arrow Price/Stock"
+	1    7100 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 7750 7100 7750
+Wire Wire Line
+	5900 7650 7100 7650
+Wire Wire Line
+	5950 7550 7100 7550
+Wire Wire Line
+	6000 7450 7100 7450
+Wire Wire Line
+	5100 2900 5100 8750
+Wire Wire Line
+	5250 3150 5250 8650
+Wire Wire Line
+	5450 3250 5450 8550
+Wire Wire Line
+	5500 3350 5500 8450
+Wire Wire Line
+	5550 3550 5550 8350
+Wire Wire Line
+	5600 3650 5600 8250
+Wire Wire Line
+	5650 3750 5650 8150
+Wire Wire Line
+	5700 3850 5700 8050
+Wire Wire Line
+	5750 4150 5750 7950
+Wire Wire Line
+	5800 4350 5800 7850
+Wire Wire Line
+	5850 4650 5850 7750
+Wire Wire Line
+	5900 4750 5900 7650
+Wire Wire Line
+	5950 4850 5950 7550
+Wire Wire Line
+	6000 4950 6000 7450
+$Comp
+L power:GND #PWR?
+U 1 1 62A38DF4
+P 8100 9200
+F 0 "#PWR?" H 8100 8950 50  0001 C CNN
+F 1 "GND" H 8105 9027 50  0000 C CNN
+F 2 "" H 8100 9200 50  0001 C CNN
+F 3 "" H 8100 9200 50  0001 C CNN
+	1    8100 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62A396AB
+P 7000 9200
+F 0 "#PWR?" H 7000 8950 50  0001 C CNN
+F 1 "GND" H 7005 9027 50  0000 C CNN
+F 2 "" H 7000 9200 50  0001 C CNN
+F 3 "" H 7000 9200 50  0001 C CNN
+	1    7000 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 62A4287E
+P 8150 6700
+F 0 "#PWR?" H 8150 6550 50  0001 C CNN
+F 1 "+5V" H 8165 6873 50  0000 C CNN
+F 2 "" H 8150 6700 50  0001 C CNN
+F 3 "" H 8150 6700 50  0001 C CNN
+	1    8150 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62A431F3
+P 6950 6700
+F 0 "#PWR?" H 6950 6550 50  0001 C CNN
+F 1 "+3.3V" H 6965 6873 50  0000 C CNN
+F 2 "" H 6950 6700 50  0001 C CNN
+F 3 "" H 6950 6700 50  0001 C CNN
+	1    6950 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 6700 6950 7050
+Wire Wire Line
+	6950 7350 7100 7350
+Wire Wire Line
+	7100 7250 6950 7250
+Connection ~ 6950 7250
+Wire Wire Line
+	6950 7250 6950 7350
+Wire Wire Line
+	7100 7150 6950 7150
+Connection ~ 6950 7150
+Wire Wire Line
+	6950 7150 6950 7250
+Wire Wire Line
+	7100 7050 6950 7050
+Connection ~ 6950 7050
+Wire Wire Line
+	6950 7050 6950 7150
+Wire Wire Line
+	8150 6700 8150 7050
+Wire Wire Line
+	8150 7350 8000 7350
+Wire Wire Line
+	8000 7250 8150 7250
+Connection ~ 8150 7250
+Wire Wire Line
+	8150 7250 8150 7350
+Wire Wire Line
+	8000 7150 8150 7150
+Connection ~ 8150 7150
+Wire Wire Line
+	8150 7150 8150 7250
+Wire Wire Line
+	8000 7050 8150 7050
+Connection ~ 8150 7050
+Wire Wire Line
+	8150 7050 8150 7150
+Wire Wire Line
+	8000 8750 8100 8750
+Wire Wire Line
+	8100 8750 8100 8850
+Wire Wire Line
+	7100 8850 7000 8850
+Wire Wire Line
+	7000 8850 7000 8950
+Wire Wire Line
+	7100 8950 7000 8950
+Connection ~ 7000 8950
+Wire Wire Line
+	7000 8950 7000 9200
+Wire Wire Line
+	8000 8850 8100 8850
+Connection ~ 8100 8850
+Wire Wire Line
+	8100 8850 8100 8950
+Wire Wire Line
+	8000 8950 8100 8950
+Connection ~ 8100 8950
+Wire Wire Line
+	8100 8950 8100 9200
+$Comp
+L power:GND #PWR?
+U 1 1 62AD9303
+P 9300 5650
+F 0 "#PWR?" H 9300 5400 50  0001 C CNN
+F 1 "GND" H 9305 5477 50  0000 C CNN
+F 2 "" H 9300 5650 50  0001 C CNN
+F 3 "" H 9300 5650 50  0001 C CNN
+	1    9300 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 5200 9300 5200
+Wire Wire Line
+	9300 5200 9300 5300
+Wire Wire Line
+	9100 5300 9300 5300
+Connection ~ 9300 5300
+Wire Wire Line
+	9300 5300 9300 5400
+Wire Wire Line
+	9100 5400 9300 5400
+Connection ~ 9300 5400
+Wire Wire Line
+	9300 5400 9300 5650
+Connection ~ 10300 3700
+Connection ~ 10350 3600
+Connection ~ 11700 3500
+Wire Wire Line
+	11700 3000 11700 3500
+Wire Wire Line
+	11900 3000 11700 3000
+Wire Wire Line
+	11700 3500 11700 3800
+Wire Wire Line
+	11900 3500 11700 3500
+$Comp
+L power:GND #PWR?
+U 1 1 627BE13D
+P 11700 3800
+F 0 "#PWR?" H 11700 3550 50  0001 C CNN
+F 1 "GND" H 11705 3627 50  0000 C CNN
+F 2 "" H 11700 3800 50  0001 C CNN
+F 3 "" H 11700 3800 50  0001 C CNN
+	1    11700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 3100 13350 3100
+Wire Wire Line
+	13100 3200 13550 3200
+Wire Wire Line
+	13100 3300 13350 3300
+Wire Wire Line
+	13100 3500 13350 3500
+Wire Wire Line
+	13550 3600 13100 3600
+Wire Wire Line
+	13550 3200 13550 3600
+Connection ~ 13550 3200
+Wire Wire Line
+	13550 2900 13550 3200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 627AC94B
+P 13550 2900
+F 0 "#PWR?" H 13550 2750 50  0001 C CNN
+F 1 "+3V3" H 13565 3073 50  0000 C CNN
+F 2 "" H 13550 2900 50  0001 C CNN
+F 3 "" H 13550 2900 50  0001 C CNN
+	1    13550 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 3400 11550 3300
+Wire Wire Line
+	11900 3400 11550 3400
+$Comp
+L power:+3V3 #PWR?
+U 1 1 627A6CF4
+P 11550 3300
+F 0 "#PWR?" H 11550 3150 50  0001 C CNN
+F 1 "+3V3" H 11565 3473 50  0000 C CNN
+F 2 "" H 11550 3300 50  0001 C CNN
+F 3 "" H 11550 3300 50  0001 C CNN
+	1    11550 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 13350 3500
+Connection ~ 13350 3300
+Wire Wire Line
+	13350 3100 13350 3300
+Wire Wire Line
+	13350 3300 13350 3500
+Wire Wire Line
+	11450 4200 11450 3700
+$Comp
+L power:GND #PWR?
+U 1 1 62775D30
+P 13350 4650
+F 0 "#PWR?" H 13350 4400 50  0001 C CNN
+F 1 "GND" H 13355 4477 50  0000 C CNN
+F 2 "" H 13350 4650 50  0001 C CNN
+F 3 "" H 13350 4650 50  0001 C CNN
+	1    13350 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13350 3500 13350 4650
+Wire Wire Line
+	11450 4200 12500 4200
+$Comp
+L SamacSys_Parts:BMI055 IC?
+U 1 1 627739B1
+P 11900 3000
+F 0 "IC?" H 12500 3781 50  0000 C CNN
+F 1 "BMI055" H 12500 3690 50  0000 C CNN
+F 2 "BMI055" H 12950 3400 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/129773.pdf" H 12950 3300 50  0001 L CNN
+F 4 "IMUs - Inertial Measurement Units 6-Axis Inertia 3x4.5mm LGA-16" H 12950 3200 50  0001 L CNN "Description"
+F 5 "" H 12950 3100 50  0001 L CNN "Height"
+F 6 "Bosch Sensortec" H 12950 3000 50  0001 L CNN "Manufacturer_Name"
+F 7 "BMI055" H 12950 2900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "262-BMI055" H 12950 2800 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMI055?qs=d72FGnIDsgRto2b9Ru3roQ%3D%3D" H 12950 2700 50  0001 L CNN "Mouser Price/Stock"
+F 10 "BMI055" H 12950 2600 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/bmi055/bosch" H 12950 2500 50  0001 L CNN "Arrow Price/Stock"
+	1    11900 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 3600 11900 3600
+Wire Wire Line
+	10300 3700 11450 3700
 $EndSCHEMATC
