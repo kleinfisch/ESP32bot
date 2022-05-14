@@ -30,4 +30,16 @@ K
 F http://suddendocs.samtec.com/prints/ssq-1xx-xx-xxx-x-xx-xxx-xx-x-mkt.pdf
 $ENDCMP
 #
+$CMP L293D
+D L293D, Motor Driver, 4.5  36 V, 16-Pin Power PDIP
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000059.pdf
+$ENDCMP
+#
+$CMP TS-1187A-B-A-B
+D Tactile Switches SPST 5.10mm x 5.10mm 0.40mm 50mA @ 12VDC SMD RoHS
+K
+F http://www.helloxkb.com/public/images/pdf/TS-1187A-B-A-B-.pdf
+$ENDCMP
+#
 #End Doc Library
