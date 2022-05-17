@@ -5,9 +5,9 @@ D 1 "18650" Battery Holder
 F https://www.mouser.co.il/datasheet/2/209/EaglePlastics_EPD_201001-1902272.pdf
 $ENDCMP
 #
-$CMP BATT_CHG_BOOST
-D A simple integrated battery charge and boost module.
-F https://www.amazon.com/MakerFocus-Discharge-Integrated-Charging-Protection/dp/B07PZT3ZW2/ref=sr_1_2_sspa?crid=331AVOZ877U9G&keywords=liion+charger+boost+board&qid=1652829149&sprefix=%2Caps%2C224&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFMMEtLQ082Qk9FNjAmZW5jcnlwdGVkSWQ9QTAxNDQ5OTYzQVZBSFQzQkRBTEFOJmVuY3J5cHRlZEFkSWQ9QTA5MjkxNTRDSjMzODRPTEJLSjkmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl
+$CMP 215299-4
+D TE Connectivity 2.54mm 4 Pos 1 Row Straight PCB Socket Through Hole Socket Strip
+F https://componentsearchengine.com/Datasheets/1/215299-4.pdf
 $ENDCMP
 #
 $CMP BMI055
