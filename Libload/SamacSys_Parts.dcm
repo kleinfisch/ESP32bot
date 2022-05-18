@@ -80,4 +80,28 @@ D Tactile Switches SPST 5.10mm x 5.10mm 0.40mm 50mA @ 12VDC SMD RoHS
 F http://www.helloxkb.com/public/images/pdf/TS-1187A-B-A-B-.pdf
 $ENDCMP
 #
+$CMP CRCW060310K0JNTC
+D Standard Thick Film Chip Resistors value 10K0 ohm.
+K
+F http://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32E_M113EH3200PS3Q0_
+D WiFi Modules (802.11) SMD module, ESP32-D0WD-V3, ESP32 ECO V3, 4 MB SPI flash, PCB antenna, -40 C ~ +105 C.
+K
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+$ENDCMP
+#
+$CMP QSD124A4R0
+D Phototransistors QSD124 T-R
+K
+F https://www.arrow.com/en/products/qsd124a4r0/on-semiconductor
+$ENDCMP
+#
+$CMP LM3940IMP-3.3_NOPB
+D LM3940IMP-3.3/NOPB, Low Dropout Voltage Regulator, 1A, 3.3 V, 4.5  7.5 Vin, 4-Pin SOT-223
+K
+F http://www.ti.com/lit/ds/symlink/lm3940.pdf
+$ENDCMP
+#
 #End Doc Library

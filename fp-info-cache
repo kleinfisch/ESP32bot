@@ -1,4 +1,4 @@
-19082581378798606
+19115632985035700
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50721,6 +50721,13 @@ BATT_CHG_BOOST
 0
 6
 6
+ESP32bot
+USB_C_Receptacle_HRO_TYPE-C-31-M-12
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+20
+20
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -76298,6 +76305,139 @@ Alps rotary encoder, EC12E..., vertical shaft, mounting holes with circular dril
 rotary encoder
 0
 5
+4
+SamacSys_Parts
+12BHC186P1GR
+12BHC186P1-GR-1
+Undefined or Miscellaneous
+0
+4
+4
+SamacSys_Parts
+BMI055
+BMI055
+Integrated Circuit
+0
+16
+16
+SamacSys_Parts
+CAPAE660X800N
+6.3*7.7
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+DIP880W50P254L2000H510Q16N
+pdip-16
+Integrated Circuit
+0
+16
+16
+SamacSys_Parts
+DIPS762W77P254L1660H705Q12N
+NDS-12-V
+Switch
+0
+12
+12
+SamacSys_Parts
+DS01C254S12BE
+DS01C-254-S-12BE-1
+Switch
+0
+24
+24
+SamacSys_Parts
+EEEFK1V331P
+G
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+ESP32WROOM32EM113EH3200PS3Q0
+ESP32-WROOM-32E(M113EH3200PS3Q0)-1
+Integrated Circuit
+0
+47
+47
+SamacSys_Parts
+JS202011SCQN
+JS202011SCQN
+Switch
+0
+6
+6
+SamacSys_Parts
+L78M05ABDTTR
+L78M05ABDT-TR-3
+Integrated Circuit
+0
+3
+3
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+QSD124A4R0
+QSD124A4R0-2
+Phototransistor
+0
+2
+2
+SamacSys_Parts
+RESC1608X50N
+CRCW0603
+Resistor
+0
+2
+2
+SamacSys_Parts
+RHDR4W78P0X254_1X4_1026X252X850P
+215299-4
+Connector
+0
+4
+4
+SamacSys_Parts
+SOT230P700X180-4N
+DCY (R-PDSO-G4)
+Integrated Circuit
+0
+4
+4
+SamacSys_Parts
+SSQ-111-XX-YYY-D
+SSQ-111-XX-YYY-D
+Connector
+0
+22
+22
+SamacSys_Parts
+SSQ-120-XX-YYY-D
+SSQ-120-XX-YYY-D
+Connector
+0
+40
+40
+SamacSys_Parts
+TB00250002BE
+TB002-500-02BE-1
+Connector
+0
+2
+2
+SamacSys_Parts
+TS1187ABAB
+TS-1187A-B-A-B-1
+Switch
+0
+4
 4
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm

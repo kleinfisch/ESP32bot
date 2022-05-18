@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\IEFis\Documents\GitHub\ESP32bot\esp32pcbbot.sch</source>
+    <date>5/17/2022 8:40:27 PM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>esp32pcbbot.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>CP2102N-A01-GQFN28</value>
+      <footprint>Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</datasheet>
+      <libsource lib="esp32pcbbot-rescue" part="CP2102N-A01-GQFN28-Interface_USB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62578773</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6257EE5E</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62580DAA</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62599C28</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6259A8BA</tstamp>
+    </comp>
+    <comp ref="USB1">
+      <value>HRO-TYPE-C-31-M-12</value>
+      <libsource lib="esp32pcbbot-rescue" part="HRO-TYPE-C-31-M-12-Type-C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625B1879</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>5.11k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625CC194</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5.11k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625CCAD9</tstamp>
+    </comp>
+    <comp ref="VR1">
+      <value>LM3940IMP-3.3_NOPB</value>
+      <footprint>VREG_LM3940IMP-3.3/NOPB</footprint>
+      <fields>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.80 mm</field>
+        <field name="PARTREV">G</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="LM3940IMP-3.3_NOPB" part="LM3940IMP-3.3_NOPB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62706A8B</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>JS202011SCQN</value>
+      <footprint>JS202011SCQN</footprint>
+      <datasheet>http://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">JS202011SCQN</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/js202011scqn/ck?region=nac</field>
+        <field name="Description">Sub miniature slide switches</field>
+        <field name="Height">5.5</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">JS202011SCQN</field>
+        <field name="Mouser Part Number">611-JS202011SCQN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CK/JS202011SCQN?qs=LgMIjt8LuD95JYWxZ7NvZA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="JS202011SCQN" description="Sub miniature slide switches"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6271E714</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-WROOM-32E-Espressif</value>
+      <footprint>Espressif:ESP32-WROOM-32E</footprint>
+      <libsource lib="esp32pcbbot-rescue" part="ESP32-WROOM-32E-Espressif" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625BF35E</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>SSQ-120-01-L-D</value>
+      <footprint>SSQ-120-XX-YYY-D</footprint>
+      <datasheet>http://suddendocs.samtec.com/prints/ssq-1xx-xx-xxx-x-xx-xxx-xx-x-mkt.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">SSQ-120-01-L-D</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ssq-120-01-l-d/samtec</field>
+        <field name="Description">40 Position, .100&amp;quot; Tiger Buy&amp;trade; Socket Strip, Square Tail</field>
+        <field name="Manufacturer_Name">SAMTEC</field>
+        <field name="Manufacturer_Part_Number">SSQ-120-01-L-D</field>
+        <field name="Mouser Part Number">200-SSQ12001LD</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samtec/SSQ-120-01-L-D?qs=%252BZP6%2F%252BtExtDg5xp9qJK50A%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SSQ-120-01-L-D" description="40 Position, .100&amp;quot; Tiger Buy&amp;trade; Socket Strip, Square Tail"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628FE724</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>BMI055</value>
+      <footprint>BMI055</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/129773.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">BMI055</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/bmi055/bosch</field>
+        <field name="Description">IMUs - Inertial Measurement Units 6-Axis Inertia 3x4.5mm LGA-16</field>
+        <field name="Manufacturer_Name">Bosch Sensortec</field>
+        <field name="Manufacturer_Part_Number">BMI055</field>
+        <field name="Mouser Part Number">262-BMI055</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMI055?qs=d72FGnIDsgRto2b9Ru3roQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BMI055" description="IMUs - Inertial Measurement Units 6-Axis Inertia 3x4.5mm LGA-16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627739B1</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B4E6C1</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B4F13C</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>L293D</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/l293.pdf</datasheet>
+      <libsource lib="Driver_Motor" part="L293D" description="Quadruple Half-H Drivers"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B8224C</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>TS1187ABAB</footprint>
+      <datasheet>http://www.helloxkb.com/public/images/pdf/TS-1187A-B-A-B-.pdf</datasheet>
+      <fields>
+        <field name="Description">Tactile Switches SPST 5.10mm x 5.10mm 0.40mm 50mA @ 12VDC SMD RoHS</field>
+        <field name="Height">4.05</field>
+        <field name="Manufacturer_Name">XKB Connectivity</field>
+        <field name="Manufacturer_Part_Number">TS-1187A-B-A-B</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TS-1187A-B-A-B" description="Tactile Switches SPST 5.10mm x 5.10mm 0.40mm 50mA @ 12VDC SMD RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B92A33</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BB24E4</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C00B45</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>TS1187ABAB</footprint>
+      <datasheet>http://www.helloxkb.com/public/images/pdf/TS-1187A-B-A-B-.pdf</datasheet>
+      <fields>
+        <field name="Description">Tactile Switches SPST 5.10mm x 5.10mm 0.40mm 50mA @ 12VDC SMD RoHS</field>
+        <field name="Height">4.05</field>
+        <field name="Manufacturer_Name">XKB Connectivity</field>
+        <field name="Manufacturer_Part_Number">TS-1187A-B-A-B</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TS-1187A-B-A-B" description="Tactile Switches SPST 5.10mm x 5.10mm 0.40mm 50mA @ 12VDC SMD RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C0060F</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>JS202011SCQN</value>
+      <footprint>JS202011SCQN</footprint>
+      <datasheet>http://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">JS202011SCQN</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/js202011scqn/ck?region=nac</field>
+        <field name="Description">Sub miniature slide switches</field>
+        <field name="Height">5.5</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">JS202011SCQN</field>
+        <field name="Mouser Part Number">611-JS202011SCQN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CK/JS202011SCQN?qs=LgMIjt8LuD95JYWxZ7NvZA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="JS202011SCQN" description="Sub miniature slide switches"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C72FCF</tstamp>
+    </comp>
+    <comp ref="S5">
+      <value>DS01C-254-S-12BE</value>
+      <footprint>DS01C254S12BE</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/670/ds01_254-1777712.pdf</datasheet>
+      <fields>
+        <field name="Description">DIP Switches / SIP Switches 1 12 Positions, Through Hole, 2.54 mm Pitch, Slide Actuator, DIP Switch</field>
+        <field name="Height">7</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">DS01C-254-S-12BE</field>
+        <field name="Mouser Part Number">490-DS01C-254-S-12BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/DS01C-254-S-12BE?qs=wnTfsH77Xs7hI7TS%2FP%2FtWQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="DS01C-254-S-12BE" description="DIP Switches / SIP Switches 1 12 Positions, Through Hole, 2.54 mm Pitch, Slide Actuator, DIP Switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6301B72C</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>215299-4</value>
+      <footprint>RHDR4W78P0X254_1X4_1026X252X850P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/215299-4.pdf</datasheet>
+      <fields>
+        <field name="Description">TE Connectivity 2.54mm 4 Pos 1 Row Straight PCB Socket Through Hole Socket Strip</field>
+        <field name="Height">8.5</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">215299-4</field>
+        <field name="Mouser Part Number">571-2152994</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/215299-4/?qs=DVXdagybtHf6CcuZEpBwpw%3D%3D</field>
+      </fields>
+      <libsource lib="esp32pcbbot-rescue" part="215299-4-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>635D2DDA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>IRL81A</value>
+      <footprint>LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf</datasheet>
+      <libsource lib="LED" part="IRL81A" description="850nm High Power Infrared Emitter, Side-Emitter package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639DA05F</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_Photo_NPN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63A6C0D8</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63BAF6E1</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>300k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63CF973F</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>IRL81A</value>
+      <footprint>LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf</datasheet>
+      <libsource lib="LED" part="IRL81A" description="850nm High Power Infrared Emitter, Side-Emitter package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D95DD3</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_Photo_NPN</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D96449</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D9646C</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>300k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D9647D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>TB002-500-02BE</value>
+      <footprint>TB00250002BE</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/670/tb002_500-1550579.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TB002-500-02BE</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tb002-500-02be/cui-devices?region=nac</field>
+        <field name="Description">Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount</field>
+        <field name="Height">10.4</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">TB002-500-02BE</field>
+        <field name="Mouser Part Number">490-TB002-500-02BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TB002-500-02BE" description="Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63DC0938</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>TB002-500-02BE</value>
+      <footprint>TB00250002BE</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/670/tb002_500-1550579.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TB002-500-02BE</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tb002-500-02be/cui-devices?region=nac</field>
+        <field name="Description">Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount</field>
+        <field name="Height">10.4</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">TB002-500-02BE</field>
+        <field name="Mouser Part Number">490-TB002-500-02BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TB002-500-02BE" description="Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63E8DC07</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>TB002-500-02BE</value>
+      <footprint>TB00250002BE</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/670/tb002_500-1550579.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TB002-500-02BE</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tb002-500-02be/cui-devices?region=nac</field>
+        <field name="Description">Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount</field>
+        <field name="Height">10.4</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">TB002-500-02BE</field>
+        <field name="Mouser Part Number">490-TB002-500-02BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TB002-500-02BE" description="Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63EE3B34</tstamp>
+    </comp>
+    <comp ref="VR2">
+      <value>L78M05ABDT-TR</value>
+      <footprint>L78M05ABDTTR</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/STMicroelectronics-L78M05ABDT-TR_C58069.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">L78M05ABDT-TR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/l78m05abdt-tr/stmicroelectronics?region=nac</field>
+        <field name="Description">Linear Voltage Regulators 5.0V 0.5A Positive</field>
+        <field name="Height">2.4</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">L78M05ABDT-TR</field>
+        <field name="Mouser Part Number">511-L78M05ABDT-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78M05ABDT-TR?qs=kdoK93vJZIY3pGnUXsif4w%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="L78M05ABDT-TR" description="Linear Voltage Regulators 5.0V 0.5A Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64092ADF</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>EEEFC1V331P</value>
+      <footprint>EEEFK1V331P</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1172.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">EEEFC1V331P</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/eee-fc1v331p/panasonic</field>
+        <field name="Description">PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEEFC1V331P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EEEFC1V331P" description="PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63397A79</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>EEEFC1V331P</value>
+      <footprint>EEEFK1V331P</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1172.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">EEEFC1V331P</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/eee-fc1v331p/panasonic</field>
+        <field name="Description">PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEEFC1V331P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EEEFC1V331P" description="PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>633986AB</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>EEEFC1V331P</value>
+      <footprint>EEEFK1V331P</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1172.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">EEEFC1V331P</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/eee-fc1v331p/panasonic</field>
+        <field name="Description">PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEEFC1V331P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EEEFC1V331P" description="PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63399375</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>EEEFC1V331P</value>
+      <footprint>EEEFK1V331P</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1172.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">EEEFC1V331P</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/eee-fc1v331p/panasonic</field>
+        <field name="Description">PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEEFC1V331P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EEEFC1V331P" description="PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6339A129</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>EEEFC1V331P</value>
+      <footprint>EEEFK1V331P</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1172.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">EEEFC1V331P</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/eee-fc1v331p/panasonic</field>
+        <field name="Description">PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEEFC1V331P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EEEFC1V331P" description="PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6339AE5F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>EEEFC1V331P</value>
+      <footprint>EEEFK1V331P</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1172.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">EEEFC1V331P</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/eee-fc1v331p/panasonic</field>
+        <field name="Description">PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEEFC1V331P</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="EEEFC1V331P" description="PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6339BBF0</tstamp>
+    </comp>
+    <comp ref="B1">
+      <value>BATT_CHG_BOOST</value>
+      <footprint>ESP32bot:BATT_CHG_BOOST</footprint>
+      <datasheet>https://www.amazon.com/MakerFocus-Discharge-Integrated-Charging-Protection/dp/B07PZT3ZW2/ref=sr_1_2_sspa?crid=331AVOZ877U9G&amp;keywords=liion+charger+boost+board&amp;qid=1652829149&amp;sprefix=%2Caps%2C224&amp;sr=8-2-spons&amp;psc=1&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFMMEtLQ082Qk9FNjAmZW5jcnlwdGVkSWQ9QTAxNDQ5OTYzQVZBSFQzQkRBTEFOJmVuY3J5cHRlZEFkSWQ9QTA5MjkxNTRDSjMzODRPTEJLSjkmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl</datasheet>
+      <fields>
+        <field name="Description">A simple integrated battery charge and boost module</field>
+        <field name="Height">8.5</field>
+        <field name="Manufacturer_Name">MakerFocus</field>
+        <field name="Manufacturer_Part_Number">NaN</field>
+        <field name="Mouser Part Number">NaN</field>
+        <field name="Mouser Price/Stock">NaN</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BATT_CHG_BOOST" description="A simple integrated battery charge and boost module."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6358AC98</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>12BHC186P1-GR</value>
+      <footprint>12BHC186P1GR</footprint>
+      <datasheet>https://www.mouser.co.il/datasheet/2/209/EaglePlastics_EPD_201001-1902272.pdf</datasheet>
+      <fields>
+        <field name="Description">1 "18650" Battery Holder</field>
+        <field name="Height">20.5</field>
+        <field name="Manufacturer_Name">Eagle Plastic Devices</field>
+        <field name="Manufacturer_Part_Number">12BHC186P1-GR</field>
+        <field name="Mouser Part Number">12BHC186P1-GR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Eagle-Plastic-Devices/12BHC186P1-GR?qs=yqaQSyyJnNiNkNtwVjdKJQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="12BHC186P1-GR" description="1 &quot;18650&quot; Battery Holder"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6368B9AB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_Photo_NPN">
+      <aliases>
+        <alias>Q_Photo_NPN_CE</alias>
+      </aliases>
+      <description>NPN phototransistor, collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_Photo_NPN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_Motor" part="L293">
+      <aliases>
+        <alias>L293D</alias>
+      </aliases>
+      <description>Quadruple Half-H Drivers</description>
+      <docs>http://www.ti.com/lit/ds/symlink/l293.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L293</field>
+        <field name="Footprint">Package_DIP:DIP-16_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN1,2" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="1Y" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="2Y" type="output"/>
+        <pin num="7" name="2A" type="input"/>
+        <pin num="8" name="VCC2" type="power_in"/>
+        <pin num="9" name="EN3,4" type="input"/>
+        <pin num="10" name="3A" type="input"/>
+        <pin num="11" name="3Y" type="output"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="4Y" type="output"/>
+        <pin num="15" name="4A" type="input"/>
+        <pin num="16" name="VCC1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="IRL81A">
+      <description>850nm High Power Infrared Emitter, Side-Emitter package</description>
+      <docs>http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf</docs>
+      <footprints>
+        <fp>LED*SideEmitter*Rectangular*W4.5mm*H1.6mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">IRL81A</field>
+        <field name="Footprint">LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LM3940IMP-3.3_NOPB" part="LM3940IMP-3.3_NOPB">
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">LM3940IMP-3.3_NOPB</field>
+        <field name="Footprint">VREG_LM3940IMP-3.3/NOPB</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.80 mm</field>
+        <field name="PARTREV">G</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND_2" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="GND_4" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="12BHC186P1-GR">
+      <description>1 "18650" Battery Holder</description>
+      <docs>https://www.mouser.co.il/datasheet/2/209/EaglePlastics_EPD_201001-1902272.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">12BHC186P1-GR</field>
+        <field name="Footprint">12BHC186P1GR</field>
+        <field name="Datasheet">https://www.mouser.co.il/datasheet/2/209/EaglePlastics_EPD_201001-1902272.pdf</field>
+        <field name="Description">1 "18650" Battery Holder</field>
+        <field name="Height">20.5</field>
+        <field name="Mouser Part Number">12BHC186P1-GR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Eagle-Plastic-Devices/12BHC186P1-GR?qs=yqaQSyyJnNiNkNtwVjdKJQ%3D%3D</field>
+        <field name="Manufacturer_Name">Eagle Plastic Devices</field>
+        <field name="Manufacturer_Part_Number">12BHC186P1-GR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="BATT_CHG_BOOST">
+      <description>A simple integrated battery charge and boost module.</description>
+      <docs>https://www.amazon.com/MakerFocus-Discharge-Integrated-Charging-Protection/dp/B07PZT3ZW2/ref=sr_1_2_sspa?crid=331AVOZ877U9G&amp;keywords=liion+charger+boost+board&amp;qid=1652829149&amp;sprefix=%2Caps%2C224&amp;sr=8-2-spons&amp;psc=1&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFMMEtLQ082Qk9FNjAmZW5jcnlwdGVkSWQ9QTAxNDQ5OTYzQVZBSFQzQkRBTEFOJmVuY3J5cHRlZEFkSWQ9QTA5MjkxNTRDSjMzODRPTEJLSjkmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl</docs>
+      <fields>
+        <field name="Reference">B1</field>
+        <field name="Value">BATT_CHG_BOOST</field>
+        <field name="Footprint">ESP32bot:BATT_CHG_BOOST</field>
+        <field name="Description">A simple integrated battery charge and boost module</field>
+        <field name="Height">8.5</field>
+        <field name="Manufacturer_Name">MakerFocus</field>
+        <field name="Manufacturer_Part_Number">NaN</field>
+        <field name="Mouser Part Number">NaN</field>
+        <field name="Mouser Price/Stock">NaN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="BATT" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="BMI055">
+      <description>IMUs - Inertial Measurement Units 6-Axis Inertia 3x4.5mm LGA-16</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/129773.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">BMI055</field>
+        <field name="Footprint">BMI055</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/129773.pdf</field>
+        <field name="Description">IMUs - Inertial Measurement Units 6-Axis Inertia 3x4.5mm LGA-16</field>
+        <field name="Manufacturer_Name">Bosch Sensortec</field>
+        <field name="Manufacturer_Part_Number">BMI055</field>
+        <field name="Mouser Part Number">262-BMI055</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMI055?qs=d72FGnIDsgRto2b9Ru3roQ%3D%3D</field>
+        <field name="Arrow Part Number">BMI055</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/bmi055/bosch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INT2" type="passive"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="VDD" type="passive"/>
+        <pin num="4" name="GNDA" type="passive"/>
+        <pin num="5" name="CSB2" type="passive"/>
+        <pin num="6" name="GNDIO" type="passive"/>
+        <pin num="7" name="PS" type="passive"/>
+        <pin num="8" name="SCX" type="passive"/>
+        <pin num="9" name="SDX" type="passive"/>
+        <pin num="10" name="SDO2" type="passive"/>
+        <pin num="11" name="VDDIO" type="passive"/>
+        <pin num="12" name="INT3" type="passive"/>
+        <pin num="13" name="INT4" type="passive"/>
+        <pin num="14" name="CSB1" type="passive"/>
+        <pin num="15" name="SDO1" type="passive"/>
+        <pin num="16" name="INT1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="DS01C-254-S-12BE">
+      <description>DIP Switches / SIP Switches 1 12 Positions, Through Hole, 2.54 mm Pitch, Slide Actuator, DIP Switch</description>
+      <docs>https://www.mouser.de/datasheet/2/670/ds01_254-1777712.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">DS01C-254-S-12BE</field>
+        <field name="Footprint">DS01C254S12BE</field>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/670/ds01_254-1777712.pdf</field>
+        <field name="Description">DIP Switches / SIP Switches 1 12 Positions, Through Hole, 2.54 mm Pitch, Slide Actuator, DIP Switch</field>
+        <field name="Height">7</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">DS01C-254-S-12BE</field>
+        <field name="Mouser Part Number">490-DS01C-254-S-12BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/DS01C-254-S-12BE?qs=wnTfsH77Xs7hI7TS%2FP%2FtWQ%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM_1" type="passive"/>
+        <pin num="2" name="NO_1" type="passive"/>
+        <pin num="3" name="COM_2" type="passive"/>
+        <pin num="4" name="NO_2" type="passive"/>
+        <pin num="5" name="COM_3" type="passive"/>
+        <pin num="6" name="NO_3" type="passive"/>
+        <pin num="7" name="COM_4" type="passive"/>
+        <pin num="8" name="NO_4" type="passive"/>
+        <pin num="9" name="COM_5" type="passive"/>
+        <pin num="10" name="NO_5" type="passive"/>
+        <pin num="11" name="COM_6" type="passive"/>
+        <pin num="12" name="NO_6" type="passive"/>
+        <pin num="13" name="COM_7" type="passive"/>
+        <pin num="14" name="NO_7" type="passive"/>
+        <pin num="15" name="COM_8" type="passive"/>
+        <pin num="16" name="NO_8" type="passive"/>
+        <pin num="17" name="COM_9" type="passive"/>
+        <pin num="18" name="NO_9" type="passive"/>
+        <pin num="19" name="COM_10" type="passive"/>
+        <pin num="20" name="NO_10" type="passive"/>
+        <pin num="21" name="COM_11" type="passive"/>
+        <pin num="22" name="NO_11" type="passive"/>
+        <pin num="23" name="COM_12" type="passive"/>
+        <pin num="24" name="NO_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="EEEFC1V331P">
+      <description>PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series</description>
+      <docs>http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1172.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EEEFC1V331P</field>
+        <field name="Footprint">EEEFK1V331P</field>
+        <field name="Datasheet">http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1172.pdf</field>
+        <field name="Description">PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEEFC1V331P</field>
+        <field name="Arrow Part Number">EEEFC1V331P</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/eee-fc1v331p/panasonic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="JS202011SCQN">
+      <description>Sub miniature slide switches</description>
+      <docs>http://www.ckswitches.com/media/1422/js.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">JS202011SCQN</field>
+        <field name="Footprint">JS202011SCQN</field>
+        <field name="Datasheet">http://www.ckswitches.com/media/1422/js.pdf</field>
+        <field name="Description">Sub miniature slide switches</field>
+        <field name="Height">5.5</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">JS202011SCQN</field>
+        <field name="Mouser Part Number">611-JS202011SCQN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CK/JS202011SCQN?qs=LgMIjt8LuD95JYWxZ7NvZA%3D%3D</field>
+        <field name="Arrow Part Number">JS202011SCQN</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/js202011scqn/ck?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="L78M05ABDT-TR">
+      <description>Linear Voltage Regulators 5.0V 0.5A Positive</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/STMicroelectronics-L78M05ABDT-TR_C58069.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">L78M05ABDT-TR</field>
+        <field name="Footprint">L78M05ABDTTR</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/STMicroelectronics-L78M05ABDT-TR_C58069.pdf</field>
+        <field name="Description">Linear Voltage Regulators 5.0V 0.5A Positive</field>
+        <field name="Height">2.4</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">L78M05ABDT-TR</field>
+        <field name="Mouser Part Number">511-L78M05ABDT-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78M05ABDT-TR?qs=kdoK93vJZIY3pGnUXsif4w%3D%3D</field>
+        <field name="Arrow Part Number">L78M05ABDT-TR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/l78m05abdt-tr/stmicroelectronics?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INPUT" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUTPUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="SSQ-120-01-L-D">
+      <description>40 Position, .100&amp;quot; Tiger Buy&amp;trade; Socket Strip, Square Tail</description>
+      <docs>http://suddendocs.samtec.com/prints/ssq-1xx-xx-xxx-x-xx-xxx-xx-x-mkt.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SSQ-120-01-L-D</field>
+        <field name="Footprint">SSQ-120-XX-YYY-D</field>
+        <field name="Datasheet">http://suddendocs.samtec.com/prints/ssq-1xx-xx-xxx-x-xx-xxx-xx-x-mkt.pdf</field>
+        <field name="Description">40 Position, .100&amp;quot; Tiger Buy&amp;trade; Socket Strip, Square Tail</field>
+        <field name="Manufacturer_Name">SAMTEC</field>
+        <field name="Manufacturer_Part_Number">SSQ-120-01-L-D</field>
+        <field name="Mouser Part Number">200-SSQ12001LD</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samtec/SSQ-120-01-L-D?qs=%252BZP6%2F%252BtExtDg5xp9qJK50A%3D%3D</field>
+        <field name="Arrow Part Number">SSQ-120-01-L-D</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ssq-120-01-l-d/samtec</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="34" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="36" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="38" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TB002-500-02BE">
+      <description>Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount</description>
+      <docs>https://eu.mouser.com/datasheet/2/670/tb002_500-1550579.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TB002-500-02BE</field>
+        <field name="Footprint">TB00250002BE</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/670/tb002_500-1550579.pdf</field>
+        <field name="Description">Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount</field>
+        <field name="Height">10.4</field>
+        <field name="Manufacturer_Name">CUI Inc.</field>
+        <field name="Manufacturer_Part_Number">TB002-500-02BE</field>
+        <field name="Mouser Part Number">490-TB002-500-02BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D</field>
+        <field name="Arrow Part Number">TB002-500-02BE</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tb002-500-02be/cui-devices?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TS-1187A-B-A-B">
+      <description>Tactile Switches SPST 5.10mm x 5.10mm 0.40mm 50mA @ 12VDC SMD RoHS</description>
+      <docs>http://www.helloxkb.com/public/images/pdf/TS-1187A-B-A-B-.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">TS-1187A-B-A-B</field>
+        <field name="Footprint">TS1187ABAB</field>
+        <field name="Datasheet">http://www.helloxkb.com/public/images/pdf/TS-1187A-B-A-B-.pdf</field>
+        <field name="Description">Tactile Switches SPST 5.10mm x 5.10mm 0.40mm 50mA @ 12VDC SMD RoHS</field>
+        <field name="Height">4.05</field>
+        <field name="Manufacturer_Name">XKB Connectivity</field>
+        <field name="Manufacturer_Part_Number">TS-1187A-B-A-B</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="COM_1" type="passive"/>
+        <pin num="B1" name="COM_2" type="passive"/>
+        <pin num="C1" name="NO_1" type="passive"/>
+        <pin num="D1" name="NO_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+        <alias>AO3400A</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp32pcbbot-rescue" part="215299-4-SamacSys_Parts">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">215299-4-SamacSys_Parts</field>
+        <field name="Footprint">RHDR4W78P0X254_1X4_1026X252X850P</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/215299-4.pdf</field>
+        <field name="Description">TE Connectivity 2.54mm 4 Pos 1 Row Straight PCB Socket Through Hole Socket Strip</field>
+        <field name="Height">8.5</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">215299-4</field>
+        <field name="Mouser Part Number">571-2152994</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/215299-4/?qs=DVXdagybtHf6CcuZEpBwpw%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp32pcbbot-rescue" part="CP2102N-A01-GQFN28-Interface_USB">
+      <footprints>
+        <fp>QFN*1EP*5x5mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2102N-A01-GQFN28-Interface_USB</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~DCD" type="input"/>
+        <pin num="2" name="~RI~/CLK" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="D-" type="BiDi"/>
+        <pin num="6" name="VDD" type="passive"/>
+        <pin num="7" name="REGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~RSTb" type="input"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="~SUSPENDb" type="output"/>
+        <pin num="12" name="SUSPEND" type="output"/>
+        <pin num="13" name="CHREN" type="output"/>
+        <pin num="14" name="CHR1" type="output"/>
+        <pin num="15" name="CHR0" type="output"/>
+        <pin num="16" name="~WAKEUP~/GPIO.3" type="BiDi"/>
+        <pin num="17" name="RS485/GPIO.2" type="BiDi"/>
+        <pin num="18" name="~RXT~/GPIO.1" type="BiDi"/>
+        <pin num="19" name="~TXT~/GPIO.0" type="BiDi"/>
+        <pin num="20" name="GPIO.6" type="BiDi"/>
+        <pin num="21" name="GPIO.5" type="BiDi"/>
+        <pin num="22" name="GPIO.4" type="BiDi"/>
+        <pin num="23" name="~CTS" type="input"/>
+        <pin num="24" name="~RTS" type="output"/>
+        <pin num="25" name="RXD" type="input"/>
+        <pin num="26" name="TXD" type="output"/>
+        <pin num="27" name="~DSR" type="input"/>
+        <pin num="28" name="~DTR" type="output"/>
+        <pin num="29" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp32pcbbot-rescue" part="ESP32-WROOM-32E-Espressif">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32E-Espressif</field>
+        <field name="Footprint">Espressif:ESP32-WROOM-32E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN/CHIP_PU" type="input"/>
+        <pin num="4" name="SENSOR_VP/GPIO36/ADC1_CH0" type="input"/>
+        <pin num="5" name="SENSOR_VN/GPIO39/ADC1_CH3" type="input"/>
+        <pin num="6" name="GPIO34/ADC1_CH6" type="input"/>
+        <pin num="7" name="GPIO35/ADC1_CH7" type="input"/>
+        <pin num="8" name="32K_XP/GPIO32/ADC1_CH4" type="BiDi"/>
+        <pin num="9" name="32K_XN/GPIO33/ADC1_CH5" type="BiDi"/>
+        <pin num="10" name="DAC_1/ADC2_CH8/GPIO25" type="BiDi"/>
+        <pin num="11" name="DAC_2/ADC2_CH9/GPIO26" type="BiDi"/>
+        <pin num="12" name="ADC2_CH7/GPIO27" type="BiDi"/>
+        <pin num="13" name="MTMS/GPIO14/ADC2_CH6" type="BiDi"/>
+        <pin num="14" name="MTDI/GPIO12/ADC2_CH5" type="BiDi"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="MTCK/GPIO13/ADC2_CH4" type="BiDi"/>
+        <pin num="17" name="NC" type="NotConnected"/>
+        <pin num="18" name="NC" type="NotConnected"/>
+        <pin num="19" name="NC" type="NotConnected"/>
+        <pin num="20" name="NC" type="NotConnected"/>
+        <pin num="21" name="NC" type="NotConnected"/>
+        <pin num="22" name="NC" type="NotConnected"/>
+        <pin num="23" name="MTDO/GPIO15/ADC2_CH3" type="BiDi"/>
+        <pin num="24" name="ADC2_CH2/GPIO2" type="BiDi"/>
+        <pin num="25" name="GPIO0/BOOT/ADC2_CH1" type="BiDi"/>
+        <pin num="26" name="ADC2_CH0/GPIO4" type="BiDi"/>
+        <pin num="27" name="GPIO16" type="BiDi"/>
+        <pin num="28" name="GPIO17" type="BiDi"/>
+        <pin num="29" name="GPIO5" type="BiDi"/>
+        <pin num="30" name="GPIO18" type="BiDi"/>
+        <pin num="31" name="GPIO19" type="BiDi"/>
+        <pin num="32" name="NC" type="NotConnected"/>
+        <pin num="33" name="GPIO21" type="BiDi"/>
+        <pin num="34" name="U0RXD/GPIO3" type="BiDi"/>
+        <pin num="35" name="U0TXD/GPIO1" type="BiDi"/>
+        <pin num="36" name="GPIO22" type="BiDi"/>
+        <pin num="37" name="GPIO23" type="BiDi"/>
+        <pin num="38" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp32pcbbot-rescue" part="HRO-TYPE-C-31-M-12-Type-C">
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">HRO-TYPE-C-31-M-12-Type-C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VBUS" type="input"/>
+        <pin num="3" name="SBU2" type="input"/>
+        <pin num="4" name="CC1" type="input"/>
+        <pin num="5" name="DN2" type="input"/>
+        <pin num="6" name="DP1" type="input"/>
+        <pin num="7" name="DN1" type="input"/>
+        <pin num="8" name="DP2" type="input"/>
+        <pin num="9" name="SBU1" type="input"/>
+        <pin num="10" name="CC2" type="input"/>
+        <pin num="11" name="VBUS" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:/Users/IEFis/Downloads/kicad-symbols-master/kicad-symbols-master/Device.lib</uri>
+    </library>
+    <library logical="Driver_Motor">
+      <uri>C:/Users/IEFis/Downloads/kicad-symbols-master/kicad-symbols-master/Driver_Motor.lib</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:/Users/IEFis/Downloads/kicad-symbols-master/kicad-symbols-master/LED.lib</uri>
+    </library>
+    <library logical="LM3940IMP-3.3_NOPB">
+      <uri>C:/Users/IEFis/Downloads/LM3940IMP-3.3_NOPB/LM3940IMP-3.3_NOPB.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/IEFis/Documents/GitHub/ESP32bot/Libload/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:/Users/IEFis/Downloads/kicad-symbols-master/kicad-symbols-master/Transistor_FET.lib</uri>
+    </library>
+    <library logical="esp32pcbbot-rescue">
+      <uri>C:\Users\IEFis\Documents\GitHub\ESP32bot/esp32pcbbot-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(S5-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="S5" pin="2"/>
+    </net>
+    <net code="2" name="Net-(S5-Pad4)">
+      <node ref="U3" pin="7"/>
+      <node ref="S5" pin="4"/>
+    </net>
+    <net code="3" name="Net-(S2-Pad2)">
+      <node ref="U3" pin="16"/>
+      <node ref="S2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(S2-Pad5)">
+      <node ref="S2" pin="5"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="5" name="Net-(S5-Pad6)">
+      <node ref="U3" pin="1"/>
+      <node ref="S5" pin="6"/>
+    </net>
+    <net code="6" name="Net-(S5-Pad8)">
+      <node ref="U3" pin="10"/>
+      <node ref="S5" pin="8"/>
+    </net>
+    <net code="7" name="Net-(S5-Pad10)">
+      <node ref="U3" pin="15"/>
+      <node ref="S5" pin="10"/>
+    </net>
+    <net code="8" name="Net-(S5-Pad12)">
+      <node ref="S5" pin="12"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="9" name="7Y">
+      <node ref="R5" pin="2"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="S5" pin="14"/>
+    </net>
+    <net code="10" name="8Y">
+      <node ref="IC1" pin="8"/>
+      <node ref="R6" pin="2"/>
+      <node ref="S5" pin="16"/>
+    </net>
+    <net code="11" name="EN">
+      <node ref="J5" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="S3" pin="B1"/>
+      <node ref="S3" pin="A1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="12" name="+3V3">
+      <node ref="VR1" pin="3"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="IC1" pin="11"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J5" pin="39"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J5" pin="37"/>
+      <node ref="J5" pin="33"/>
+      <node ref="J5" pin="35"/>
+    </net>
+    <net code="13" name="VCC">
+      <node ref="S2" pin="1"/>
+      <node ref="S2" pin="6"/>
+      <node ref="C8" pin="1"/>
+      <node ref="VR2" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="14" name="+5V">
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J4" pin="4"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J5" pin="36"/>
+      <node ref="J5" pin="38"/>
+      <node ref="J5" pin="40"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J5" pin="34"/>
+      <node ref="U2" pin="9"/>
+      <node ref="S2" pin="4"/>
+      <node ref="S1" pin="1"/>
+      <node ref="VR1" pin="1"/>
+      <node ref="S2" pin="3"/>
+      <node ref="S1" pin="6"/>
+    </net>
+    <net code="15" name="M2B">
+      <node ref="J2" pin="2"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="16" name="Net-(B1-Pad4)">
+      <node ref="U4" pin="1"/>
+      <node ref="B1" pin="4"/>
+    </net>
+    <net code="17" name="Net-(U4-PadMH1)">
+      <node ref="U4" pin="MH1"/>
+    </net>
+    <net code="18" name="Net-(U4-PadMH2)">
+      <node ref="U4" pin="MH2"/>
+    </net>
+    <net code="19" name="VBUS">
+      <node ref="B1" pin="1"/>
+      <node ref="S1" pin="2"/>
+      <node ref="USB1" pin="11"/>
+      <node ref="VR2" pin="3"/>
+      <node ref="USB1" pin="2"/>
+    </net>
+    <net code="20" name="GND">
+      <node ref="J5" pin="3"/>
+      <node ref="J4" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="J5" pin="4"/>
+      <node ref="U3" pin="5"/>
+      <node ref="S3" pin="C1"/>
+      <node ref="S3" pin="D1"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="29"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="USB1" pin="13"/>
+      <node ref="USB1" pin="12"/>
+      <node ref="USB1" pin="1"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="IC1" pin="15"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="S4" pin="D1"/>
+      <node ref="S4" pin="C1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J5" pin="6"/>
+      <node ref="U1" pin="38"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U3" pin="13"/>
+      <node ref="VR1" pin="4"/>
+      <node ref="VR1" pin="2"/>
+      <node ref="VR2" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="B1" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="B1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="B1" pin="5"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="21" name="+BATT">
+      <node ref="B1" pin="6"/>
+      <node ref="S1" pin="5"/>
+    </net>
+    <net code="22" name="M2A">
+      <node ref="J2" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="23" name="9Y">
+      <node ref="S5" pin="18"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="24" name="10Y">
+      <node ref="J4" pin="2"/>
+      <node ref="S5" pin="20"/>
+    </net>
+    <net code="25" name="M1A">
+      <node ref="J1" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="26" name="M1B">
+      <node ref="U3" pin="6"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="27" name="Net-(D2-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="28" name="12Y">
+      <node ref="S5" pin="24"/>
+      <node ref="R7" pin="2"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="29" name="11Y">
+      <node ref="S5" pin="22"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="31" name="Net-(J5-Pad7)">
+      <node ref="U2" pin="26"/>
+      <node ref="U1" pin="34"/>
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="32" name="Net-(J5-Pad9)">
+      <node ref="U2" pin="25"/>
+      <node ref="U1" pin="35"/>
+      <node ref="J5" pin="9"/>
+    </net>
+    <net code="33" name="Net-(J5-Pad13)">
+      <node ref="U1" pin="4"/>
+      <node ref="J5" pin="13"/>
+    </net>
+    <net code="34" name="8A">
+      <node ref="S5" pin="15"/>
+      <node ref="U1" pin="36"/>
+      <node ref="J5" pin="24"/>
+    </net>
+    <net code="35" name="Net-(J5-Pad26)">
+      <node ref="U1" pin="37"/>
+      <node ref="J5" pin="26"/>
+    </net>
+    <net code="36" name="Net-(J5-Pad21)">
+      <node ref="U1" pin="8"/>
+      <node ref="S5" pin="5"/>
+      <node ref="J5" pin="21"/>
+    </net>
+    <net code="37" name="Net-(J5-Pad23)">
+      <node ref="U1" pin="9"/>
+      <node ref="S5" pin="11"/>
+      <node ref="J5" pin="23"/>
+    </net>
+    <net code="38" name="Net-(J5-Pad14)">
+      <node ref="U1" pin="27"/>
+      <node ref="J5" pin="14"/>
+      <node ref="S5" pin="1"/>
+    </net>
+    <net code="39" name="Net-(J5-Pad15)">
+      <node ref="U1" pin="5"/>
+      <node ref="J5" pin="15"/>
+    </net>
+    <net code="40" name="Net-(J5-Pad17)">
+      <node ref="J5" pin="17"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="41" name="Net-(J5-Pad19)">
+      <node ref="J5" pin="19"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="42" name="Net-(IC1-Pad14)">
+      <node ref="IC1" pin="14"/>
+    </net>
+    <net code="43" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="44" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="45" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13"/>
+    </net>
+    <net code="46" name="Net-(IC1-Pad16)">
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="47" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="48" name="BOOT">
+      <node ref="J5" pin="11"/>
+      <node ref="S4" pin="A1"/>
+      <node ref="S4" pin="B1"/>
+      <node ref="U1" pin="25"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="49" name="Net-(Q2-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="24"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="50" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="51" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="52" name="Net-(USB1-Pad3)">
+      <node ref="USB1" pin="3"/>
+    </net>
+    <net code="53" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="USB1" pin="4"/>
+    </net>
+    <net code="54" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+      <node ref="USB1" pin="5"/>
+      <node ref="USB1" pin="7"/>
+    </net>
+    <net code="55" name="Net-(USB1-Pad9)">
+      <node ref="USB1" pin="9"/>
+    </net>
+    <net code="56" name="Net-(R2-Pad1)">
+      <node ref="USB1" pin="10"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="57" name="Net-(U2-Pad23)">
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="58" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="59" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="60" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="61" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="62" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="63" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="64" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="65" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="66" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="67" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="68" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="69" name="Net-(U2-Pad20)">
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="70" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="71" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="72" name="Net-(U2-Pad27)">
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="73" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="U2" pin="28"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="74" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+      <node ref="USB1" pin="8"/>
+      <node ref="USB1" pin="6"/>
+    </net>
+    <net code="75" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="76" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="77" name="Net-(J5-Pad28)">
+      <node ref="J5" pin="28"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="78" name="Net-(J5-Pad30)">
+      <node ref="U1" pin="11"/>
+      <node ref="J5" pin="30"/>
+    </net>
+    <net code="79" name="Net-(J5-Pad32)">
+      <node ref="J5" pin="32"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="80" name="11A">
+      <node ref="S5" pin="21"/>
+      <node ref="U1" pin="13"/>
+      <node ref="J5" pin="25"/>
+    </net>
+    <net code="81" name="9A">
+      <node ref="S5" pin="17"/>
+      <node ref="U1" pin="14"/>
+      <node ref="J5" pin="27"/>
+    </net>
+    <net code="82" name="10A">
+      <node ref="U1" pin="16"/>
+      <node ref="J5" pin="29"/>
+      <node ref="S5" pin="19"/>
+    </net>
+    <net code="83" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="84" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="85" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="86" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="87" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="88" name="12A">
+      <node ref="U1" pin="23"/>
+      <node ref="S5" pin="23"/>
+      <node ref="J5" pin="31"/>
+    </net>
+    <net code="89" name="Net-(J5-Pad8)">
+      <node ref="U1" pin="24"/>
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="90" name="Net-(J5-Pad10)">
+      <node ref="J5" pin="10"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="91" name="Net-(J5-Pad16)">
+      <node ref="U1" pin="28"/>
+      <node ref="J5" pin="16"/>
+      <node ref="S5" pin="3"/>
+    </net>
+    <net code="92" name="Net-(J5-Pad12)">
+      <node ref="J5" pin="12"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="93" name="Net-(J5-Pad18)">
+      <node ref="S5" pin="7"/>
+      <node ref="U1" pin="30"/>
+      <node ref="J5" pin="18"/>
+    </net>
+    <net code="94" name="Net-(J5-Pad20)">
+      <node ref="J5" pin="20"/>
+      <node ref="S5" pin="9"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="95" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="96" name="7A">
+      <node ref="J5" pin="22"/>
+      <node ref="U1" pin="33"/>
+      <node ref="S5" pin="13"/>
+    </net>
+    <net code="97" name="Net-(S1-Pad3)">
+      <node ref="S1" pin="3"/>
+    </net>
+    <net code="98" name="Net-(S1-Pad4)">
+      <node ref="S1" pin="4"/>
+    </net>
+    <net code="99" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+  </nets>
+</export>
