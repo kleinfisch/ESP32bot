@@ -1330,17 +1330,17 @@
       (pins USB1-A8)
     )
     (class kicad_default "" 10A 10Y 11A 11Y 12A 12Y 7A 7Y 8A 8Y 9A 9Y BOOT
-      EN GND M1A M1B M2A M2B "Net-(B1-Pad4)" "Net-(D1-Pad2)" "Net-(D2-Pad2)"
-      "Net-(IC1-Pad1)" "Net-(IC1-Pad12)" "Net-(IC1-Pad13)" "Net-(IC1-Pad14)"
-      "Net-(IC1-Pad16)" "Net-(IC1-Pad5)" "Net-(J5-Pad10)" "Net-(J5-Pad12)"
-      "Net-(J5-Pad13)" "Net-(J5-Pad14)" "Net-(J5-Pad15)" "Net-(J5-Pad16)"
-      "Net-(J5-Pad17)" "Net-(J5-Pad18)" "Net-(J5-Pad19)" "Net-(J5-Pad20)"
-      "Net-(J5-Pad21)" "Net-(J5-Pad23)" "Net-(J5-Pad26)" "Net-(J5-Pad28)"
-      "Net-(J5-Pad30)" "Net-(J5-Pad32)" "Net-(J5-Pad7)" "Net-(J5-Pad8)" "Net-(J5-Pad9)"
-      "Net-(Q1-Pad1)" "Net-(Q1-Pad2)" "Net-(Q2-Pad1)" "Net-(Q2-Pad2)" "Net-(R1-Pad1)"
-      "Net-(R2-Pad1)" "Net-(S1-Pad3)" "Net-(S1-Pad4)" "Net-(S2-Pad2)" "Net-(S2-Pad5)"
-      "Net-(S5-Pad10)" "Net-(S5-Pad12)" "Net-(S5-Pad2)" "Net-(S5-Pad4)" "Net-(S5-Pad6)"
-      "Net-(S5-Pad8)" "Net-(U1-Pad17)" "Net-(U1-Pad18)" "Net-(U1-Pad19)" "Net-(U1-Pad20)"
+      EN GND "Net-(B1-Pad4)" "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(IC1-Pad1)"
+      "Net-(IC1-Pad12)" "Net-(IC1-Pad13)" "Net-(IC1-Pad14)" "Net-(IC1-Pad16)"
+      "Net-(IC1-Pad5)" "Net-(J5-Pad10)" "Net-(J5-Pad12)" "Net-(J5-Pad13)"
+      "Net-(J5-Pad14)" "Net-(J5-Pad15)" "Net-(J5-Pad16)" "Net-(J5-Pad17)"
+      "Net-(J5-Pad18)" "Net-(J5-Pad19)" "Net-(J5-Pad20)" "Net-(J5-Pad21)"
+      "Net-(J5-Pad23)" "Net-(J5-Pad26)" "Net-(J5-Pad28)" "Net-(J5-Pad30)"
+      "Net-(J5-Pad32)" "Net-(J5-Pad7)" "Net-(J5-Pad8)" "Net-(J5-Pad9)" "Net-(Q1-Pad1)"
+      "Net-(Q1-Pad2)" "Net-(Q2-Pad1)" "Net-(Q2-Pad2)" "Net-(R1-Pad1)" "Net-(R2-Pad1)"
+      "Net-(S1-Pad3)" "Net-(S1-Pad4)" "Net-(S2-Pad2)" "Net-(S2-Pad5)" "Net-(S5-Pad10)"
+      "Net-(S5-Pad12)" "Net-(S5-Pad2)" "Net-(S5-Pad4)" "Net-(S5-Pad6)" "Net-(S5-Pad8)"
+      "Net-(U1-Pad17)" "Net-(U1-Pad18)" "Net-(U1-Pad19)" "Net-(U1-Pad20)"
       "Net-(U1-Pad21)" "Net-(U1-Pad22)" "Net-(U1-Pad32)" "Net-(U2-Pad1)" "Net-(U2-Pad10)"
       "Net-(U2-Pad11)" "Net-(U2-Pad12)" "Net-(U2-Pad13)" "Net-(U2-Pad14)"
       "Net-(U2-Pad15)" "Net-(U2-Pad16)" "Net-(U2-Pad17)" "Net-(U2-Pad18)"
@@ -1355,7 +1355,7 @@
         (clearance 200.1)
       )
     )
-    (class Power +3V3 +5V +BATT VBUS VCC
+    (class Power +3V3 +5V +BATT M1A M1B M2A M2B VBUS VCC
       (circuit
         (use_via Via[0-1]_1000:500_um)
       )
