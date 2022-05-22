@@ -182,10 +182,10 @@
     (component SamacSys_Parts:EEEFK1V331P
       (place C8 130000 -52000 front 180 (PN EEEFC1V331P))
       (place C7 118000 -52000 front 180 (PN EEEFC1V331P))
-      (place C6 62000 -51000 front 180 (PN EEEFC1V331P))
-      (place C5 50000 -51000 front 180 (PN EEEFC1V331P))
+      (place C6 62000 -52000 front 180 (PN EEEFC1V331P))
+      (place C5 50000 -52000 front 180 (PN EEEFC1V331P))
       (place C4 130000 -37000 front 180 (PN EEEFC1V331P))
-      (place C3 50000 -36000 front 180 (PN EEEFC1V331P))
+      (place C3 50000 -37000 front 180 (PN EEEFC1V331P))
     )
     (component Capacitor_SMD:C_0603_1608Metric
       (place C2 75000 -83000 front 315 (PN 0.1uF))
@@ -199,13 +199,13 @@
       (place VR1 107250 -51500 front 270 (PN "LM3940IMP-3.3_NOPB"))
     )
     (component "ESP32bot:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-      (place USB1 70000 -27500 front 180 (PN "TYPE-C-31-M-12"))
+      (place USB1 71000 -27500 front 180 (PN "TYPE-C-31-M-12"))
     )
     (component "Package_DIP:DIP-16_W7.62mm"
       (place U3 38000 -69000 front 90 (PN L293D))
     )
     (component "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm"
-      (place U2 74000 -39000 front 270 (PN "CP2102N-A01-GQFN28"))
+      (place U2 71000 -39880 front 270 (PN "CP2102N-A01-GQFN28"))
     )
     (component SamacSys_Parts:ESP32WROOM32EM113EH3200PS3Q0
       (place U1 90000 -35000 front 0 (PN "ESP32-WROOM-32E-Espressif"))
@@ -217,18 +217,18 @@
       (place R7 107000 -193000 front 0 (PN 100k))
       (place R6 96000 -84000 front 90 (PN 4.7k))
       (place R5 84000 -84000 front 270 (PN 4.7k))
-      (place R4 59000 -36000 front 0 (PN 10k))
-      (place R3 64000 -36000 front 180 (PN 10k))
-      (place R2 62000 -28000 front 270 (PN 5.11k))
-      (place R1 62000 -31000 front 90 (PN 5.11k))
+      (place R4 61000 -32000 front 0 (PN 10k))
+      (place R3 60825 -38000 front 180 (PN 10k))
+      (place R2 61000 -28000 front 0 (PN 5.11k))
+      (place R1 61000 -30000 front 180 (PN 5.11k))
     )
     (component SamacSys_Parts:QSD124A4R0
       (place Q4 65000 -191000 back 180 (PN Q_Photo_NPN))
       (place Q3 112000 -191000 back 180 (PN Q_Photo_NPN))
     )
     (component "Package_TO_SOT_SMD:SOT-23"
-      (place Q2 64000 -40000 front 270 (PN 2N7002))
-      (place Q1 59000 -40000 front 270 (PN 2N7002))
+      (place Q2 61000 -41000 front 270 (PN 2N7002))
+      (place Q1 61000 -35000 front 270 (PN 2N7002))
     )
     (component ESP32bot:BATT_CHG_BOOST
       (place B1 124000 -67000 front 270 (PN BATT_CHG_BOOST))
