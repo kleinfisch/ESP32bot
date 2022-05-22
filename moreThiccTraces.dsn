@@ -199,7 +199,7 @@
       (place VR1 107250 -51500 front 270 (PN "LM3940IMP-3.3_NOPB"))
     )
     (component "ESP32bot:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-      (place USB1 71000 -27500 front 180 (PN "TYPE-C-31-M-12"))
+      (place USB1 69000 -27500 front 180 (PN "TYPE-C-31-M-12"))
     )
     (component "Package_DIP:DIP-16_W7.62mm"
       (place U3 38000 -69000 front 90 (PN L293D))
@@ -217,18 +217,18 @@
       (place R7 107000 -193000 front 0 (PN 100k))
       (place R6 96000 -84000 front 90 (PN 4.7k))
       (place R5 84000 -84000 front 270 (PN 4.7k))
-      (place R4 61000 -32000 front 0 (PN 10k))
-      (place R3 60825 -38000 front 180 (PN 10k))
-      (place R2 61000 -28000 front 0 (PN 5.11k))
-      (place R1 61000 -30000 front 180 (PN 5.11k))
+      (place R4 59000 -33000 front 0 (PN 10k))
+      (place R3 58825 -39000 front 180 (PN 10k))
+      (place R2 59000 -29000 front 0 (PN 5.11k))
+      (place R1 59000 -31000 front 180 (PN 5.11k))
     )
     (component SamacSys_Parts:QSD124A4R0
       (place Q4 65000 -191000 back 180 (PN Q_Photo_NPN))
       (place Q3 112000 -191000 back 180 (PN Q_Photo_NPN))
     )
     (component "Package_TO_SOT_SMD:SOT-23"
-      (place Q2 61000 -41000 front 270 (PN 2N7002))
-      (place Q1 61000 -35000 front 270 (PN 2N7002))
+      (place Q2 59000 -42000 front 270 (PN 2N7002))
+      (place Q1 59000 -36000 front 270 (PN 2N7002))
     )
     (component ESP32bot:BATT_CHG_BOOST
       (place B1 124000 -67000 front 270 (PN BATT_CHG_BOOST))
