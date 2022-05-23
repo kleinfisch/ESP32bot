@@ -189,7 +189,7 @@
       (place VR1 107250 -51500 front 270 (PN "LM3940IMP-3.3_NOPB"))
     )
     (component "ESP32bot:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-      (place USB1 69000 -27500 front 180 (PN "TYPE-C-31-M-12"))
+      (place USB1 68000 -27500 front 180 (PN "TYPE-C-31-M-12"))
     )
     (component "Package_DIP:DIP-16_W7.62mm"
       (place U3 38000 -69000 front 90 (PN L293D))
@@ -210,7 +210,7 @@
       (place R4 74000 -40000 front 0 (PN 10k))
       (place R3 73825 -46000 front 180 (PN 10k))
       (place R2 59000 -29000 front 180 (PN 5.11k))
-      (place R1 59000 -31000 front 180 (PN 5.11k))
+      (place R1 77000 -29000 front 0 (PN 5.11k))
     )
     (component SamacSys_Parts:QSD124A4R0
       (place Q4 65000 -191000 back 180 (PN Q_Photo_NPN))
