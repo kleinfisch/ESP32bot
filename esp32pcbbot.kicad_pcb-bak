@@ -1554,7 +1554,7 @@
   )
 
   (module ESP32bot:USB_C_Receptacle_HRO_TYPE-C-31-M-12 (layer F.Cu) (tedit 62854E0C) (tstamp 62861D16)
-    (at 71 27.5 180)
+    (at 69 27.5 180)
     (descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
     (tags "usb usb-c 2.0 pd")
     (path /628F6AB1)
@@ -2146,7 +2146,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 62861B15)
-    (at 61 32)
+    (at 59 33)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /6259A8BA)
@@ -2182,7 +2182,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 62861B04)
-    (at 60.825 38 180)
+    (at 58.825 39 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /62599C28)
@@ -2218,7 +2218,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 62861AF3)
-    (at 61 28)
+    (at 59 29)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /625CCAD9)
@@ -2254,7 +2254,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 62861AE2)
-    (at 61 30 180)
+    (at 59 31 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /625CC194)
@@ -2376,7 +2376,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 62861A9F)
-    (at 61 41 270)
+    (at 59 42 270)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /62580DAA)
@@ -2417,7 +2417,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 62861A8A)
-    (at 61 35 270)
+    (at 59 36 270)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /6257EE5E)
