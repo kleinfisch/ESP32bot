@@ -115,7 +115,7 @@ $EndComp
 Text Notes 7100 5650 0    50   ~ 0
 (He Lives Within WIFI)
 $Comp
-L esp32pcbbot-rescue:LM3940IMP-3.3_NOPB-LM3940IMP-3.3_NOPB VR1
+L LM3940IMP-3.3_NOPB:LM3940IMP-3.3_NOPB VR1
 U 1 1 62706A8B
 P 2700 1250
 F 0 "VR1" H 2700 1617 50  0000 C CNN
@@ -652,58 +652,23 @@ Wire Wire Line
 Wire Wire Line
 	5900 1450 5900 3350
 Wire Wire Line
-	1750 3300 2000 3300
-Wire Wire Line
-	2000 3300 2000 4500
-Wire Wire Line
-	1750 4500 1850 4500
-Wire Wire Line
-	1750 4400 1850 4400
-Wire Wire Line
-	1850 4400 1850 4500
-Connection ~ 1850 4500
-Wire Wire Line
-	1850 4500 2000 4500
-Wire Wire Line
-	2350 3400 1750 3400
-Wire Wire Line
-	2350 3400 2350 4300
-Wire Wire Line
 	2350 4300 2300 4300
 Wire Wire Line
 	2900 3800 2900 3350
 Wire Wire Line
 	2900 3350 3600 3350
 Wire Wire Line
-	1750 4000 1900 4000
-Wire Wire Line
-	1900 4000 1900 3800
-Connection ~ 1900 3800
-Wire Wire Line
-	1900 3800 2900 3800
-Wire Wire Line
 	2700 3700 2700 3450
 Wire Wire Line
 	2700 3450 3600 3450
-Wire Wire Line
-	1750 3900 2200 3900
-Wire Wire Line
-	2200 3900 2200 3700
-Connection ~ 2200 3700
-Wire Wire Line
-	2200 3700 2700 3700
 Wire Wire Line
 	2500 3600 2500 4550
 Wire Wire Line
 	2950 4200 2950 4550
 Wire Wire Line
-	2000 4500 2000 4950
-Connection ~ 2000 4500
-Wire Wire Line
 	2500 4850 2500 4950
 Wire Wire Line
 	2500 4950 2450 4950
-Connection ~ 2000 4950
 Wire Wire Line
 	2000 4950 2000 5300
 Wire Wire Line
@@ -746,6 +711,15 @@ Wire Wire Line
 	4750 2400 4100 2400
 Wire Wire Line
 	3600 2450 3600 2550
+Wire Wire Line
+	3600 2550 4000 2550
+Wire Wire Line
+	4100 2550 4100 2650
+Wire Wire Line
+	4000 2650 4000 2550
+Connection ~ 4000 2550
+Wire Wire Line
+	4000 2550 4100 2550
 Wire Wire Line
 	2350 3000 2350 3250
 Wire Wire Line
@@ -1484,7 +1458,6 @@ Wire Wire Line
 	15650 6650 15450 6650
 Wire Wire Line
 	15450 6850 15650 6850
-Connection ~ 2350 3400
 Connection ~ 7000 1650
 Wire Wire Line
 	7000 1650 7350 1650
@@ -1871,6 +1844,9 @@ F 11 "https://www.arrow.com/en/products/eee-fc1v331p/panasonic" H 11050 9700 50 
 	1    10700 10550
 	1    0    0    -1  
 $EndComp
+Connection ~ 11200 10550
+Wire Wire Line
+	11200 10550 11200 10800
 $Comp
 L SamacSys_Parts:EEEFC1V331P C7
 U 1 1 633986AB
@@ -1890,6 +1866,8 @@ F 11 "https://www.arrow.com/en/products/eee-fc1v331p/panasonic" H 11050 9300 50 
 	1    10700 10150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	11200 10150 11200 10550
 $Comp
 L SamacSys_Parts:EEEFC1V331P C6
 U 1 1 63399375
@@ -1909,6 +1887,9 @@ F 11 "https://www.arrow.com/en/products/eee-fc1v331p/panasonic" H 10200 9700 50 
 	1    9850 10550
 	1    0    0    -1  
 $EndComp
+Connection ~ 10350 10550
+Wire Wire Line
+	10350 10550 10350 10800
 $Comp
 L SamacSys_Parts:EEEFC1V331P C5
 U 1 1 6339A129
@@ -1928,6 +1909,8 @@ F 11 "https://www.arrow.com/en/products/eee-fc1v331p/panasonic" H 10200 9300 50 
 	1    9850 10150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10350 10150 10350 10550
 $Comp
 L SamacSys_Parts:EEEFC1V331P C4
 U 1 1 6339AE5F
@@ -1947,6 +1930,9 @@ F 11 "https://www.arrow.com/en/products/eee-fc1v331p/panasonic" H 9300 9700 50  
 	1    8950 10550
 	1    0    0    -1  
 $EndComp
+Connection ~ 9450 10550
+Wire Wire Line
+	9450 10550 9450 10800
 $Comp
 L SamacSys_Parts:EEEFC1V331P C3
 U 1 1 6339BBF0
@@ -1966,6 +1952,8 @@ F 11 "https://www.arrow.com/en/products/eee-fc1v331p/panasonic" H 9300 9300 50  
 	1    8950 10150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9450 10150 9450 10550
 Wire Wire Line
 	9850 10550 9650 10550
 Wire Wire Line
@@ -2157,9 +2145,6 @@ Wire Wire Line
 	2300 4300 2300 5750
 Wire Wire Line
 	2300 5750 2200 5750
-Connection ~ 2300 4300
-Wire Wire Line
-	2300 4300 1750 4300
 Wire Wire Line
 	750  3600 750  5950
 Wire Wire Line
@@ -2181,13 +2166,9 @@ Wire Wire Line
 Wire Wire Line
 	650  6050 800  6050
 Wire Wire Line
-	650  3800 1900 3800
-Wire Wire Line
 	600  3700 600  6150
 Wire Wire Line
 	600  6150 800  6150
-Wire Wire Line
-	600  3700 2200 3700
 Wire Wire Line
 	650  6050 650  6750
 Wire Wire Line
@@ -2296,10 +2277,10 @@ Wire Wire Line
 Wire Wire Line
 	7000 1900 9600 1900
 $Comp
-L power:GNDPWR #PWR?
+L power:GNDPWR #PWR0147
 U 1 1 628DA39C
 P 14400 4050
-F 0 "#PWR?" H 14400 3850 50  0001 C CNN
+F 0 "#PWR0147" H 14400 3850 50  0001 C CNN
 F 1 "GNDPWR" H 14404 3896 50  0000 C CNN
 F 2 "" H 14400 4000 50  0001 C CNN
 F 3 "" H 14400 4000 50  0001 C CNN
@@ -2314,25 +2295,12 @@ Connection ~ 13950 3900
 Wire Wire Line
 	13950 3900 13950 4050
 Wire Wire Line
-	3600 3250 2800 3250
+	3600 3250 2350 3250
 Connection ~ 2350 3250
 Wire Wire Line
-	2350 3250 2350 3400
+	650  3800 2900 3800
 Wire Wire Line
-	11200 10150 11200 10800
+	600  3700 2700 3700
 Wire Wire Line
-	10350 10150 10350 10800
-Wire Wire Line
-	9450 10150 9450 10800
-Wire Wire Line
-	4100 2550 4100 2650
-Wire Wire Line
-	3600 2550 4100 2550
-Wire Wire Line
-	4000 2650 2800 2650
-Wire Wire Line
-	2800 2650 2800 3250
-Connection ~ 2800 3250
-Wire Wire Line
-	2800 3250 2350 3250
+	2350 3250 2350 4300
 $EndSCHEMATC
