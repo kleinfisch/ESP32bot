@@ -1,3 +1,14 @@
 #TODO
-1. Create PCB
-Select SMD resistor/capacitor footprints uwu so smol
+Move 12C breakout to other side of dip switch
+Repeair CP2102 circiutry
+fix BMS circiutry?
+Breakout usb electronics
+Move BMS module
+Put ESP32 on swappable board?
+Start making silkscreen labels
+Fix voltage regulator footprint
+Change IR sensor
+No fill zone mounting points
+update copper text
+add silkscreen test QR
+Update no fill zone

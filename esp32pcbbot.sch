@@ -91,17 +91,6 @@ F 3 "~" H 2950 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0102
-U 1 1 625E73F9
-P 3250 2950
-F 0 "#PWR0102" H 3250 2800 50  0001 C CNN
-F 1 "+5V" H 3265 3123 50  0000 C CNN
-F 2 "" H 3250 2950 50  0001 C CNN
-F 3 "" H 3250 2950 50  0001 C CNN
-	1    3250 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0103
 U 1 1 625F5B7F
 P 4100 5900
@@ -662,7 +651,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 3450 3600 3450
 Wire Wire Line
-	2500 3600 2500 4550
+	2500 4500 2500 4550
 Wire Wire Line
 	2950 4200 2950 4550
 Wire Wire Line
@@ -678,8 +667,6 @@ Wire Wire Line
 	2500 4950 2950 4950
 Wire Wire Line
 	3600 3050 3250 3050
-Wire Wire Line
-	3250 3050 3250 2950
 Wire Wire Line
 	4100 5250 4100 5900
 Wire Wire Line
@@ -712,14 +699,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 2450 3600 2550
 Wire Wire Line
-	3600 2550 4000 2550
-Wire Wire Line
 	4100 2550 4100 2650
-Wire Wire Line
-	4000 2650 4000 2550
-Connection ~ 4000 2550
-Wire Wire Line
-	4000 2550 4100 2550
 Wire Wire Line
 	2350 3000 2350 3250
 Wire Wire Line
@@ -2146,21 +2126,21 @@ Wire Wire Line
 Wire Wire Line
 	2300 5750 2200 5750
 Wire Wire Line
-	750  3600 750  5950
+	750  4500 750  5950
 Wire Wire Line
 	750  5950 800  5950
 Wire Wire Line
-	750  3600 2500 3600
+	750  4500 2500 4500
 Wire Wire Line
-	1400 4200 1400 5200
+	3300 4200 3300 5200
 Wire Wire Line
-	1400 5200 2650 5200
+	3300 5200 2650 5200
 Wire Wire Line
 	2650 5200 2650 6250
 Wire Wire Line
 	2650 6250 2200 6250
 Wire Wire Line
-	1400 4200 2950 4200
+	3300 4200 2950 4200
 Wire Wire Line
 	650  3800 650  6050
 Wire Wire Line
@@ -2294,8 +2274,6 @@ Wire Wire Line
 Connection ~ 13950 3900
 Wire Wire Line
 	13950 3900 13950 4050
-Wire Wire Line
-	3600 3250 2350 3250
 Connection ~ 2350 3250
 Wire Wire Line
 	650  3800 2900 3800
@@ -2303,4 +2281,18 @@ Wire Wire Line
 	600  3700 2700 3700
 Wire Wire Line
 	2350 3250 2350 4300
+Wire Wire Line
+	3600 2550 4000 2550
+Wire Wire Line
+	3250 2550 3600 2550
+Wire Wire Line
+	3250 2550 3250 3050
+Connection ~ 3600 2550
+Wire Wire Line
+	2350 3250 3600 3250
+Wire Wire Line
+	4000 2650 4000 2550
+Connection ~ 4000 2550
+Wire Wire Line
+	4000 2550 4100 2550
 $EndSCHEMATC
