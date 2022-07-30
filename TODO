@@ -1,14 +1,14 @@
 #TODO
-Move 12C breakout to other side of dip switch
-Repeair CP2102 circiutry
-fix BMS circiutry?
+Update no fill zone - DONE!
+Move 12C breakout to other side of dip switch - DONE!
+Change IR sensor
+Repair CP2102 circuitry
+fix BMS circuitry?
 Breakout usb electronics
 Move BMS module
 Put ESP32 on swappable board?
 Start making silkscreen labels
 Fix voltage regulator footprint
-Change IR sensor
 No fill zone mounting points
 update copper text
 add silkscreen test QR
-Update no fill zone
