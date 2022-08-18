@@ -1,6 +1,7 @@
 (sym_lib_table
-  (lib (name esp32pcbbot-rescue)(type Legacy)(uri ${KIPRJMOD}/esp32pcbbot-rescue.lib)(options "")(descr ""))
-  (lib (name LM3940IMP-3.3_NOPB)(type Legacy)(uri C:/Users/IEFis/Downloads/LM3940IMP-3.3_NOPB/LM3940IMP-3.3_NOPB.lib)(options "")(descr ""))
-  (lib (name TYPE-C-31-M-12)(type Legacy)(uri ${KIPRJMOD}/TYPE-C-31-M-12.lib)(options "")(descr ""))
-  (lib (name esp32pcbbot-cache)(type Legacy)(uri ${KIPRJMOD}/esp32pcbbot-cache.lib)(options "")(descr ""))
+  (lib (name "esp32pcbbot-rescue")(type "KiCad")(uri "${KIPRJMOD}/esp32pcbbot-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "TYPE-C-31-M-12")(type "KiCad")(uri "${KIPRJMOD}/TYPE-C-31-M-12.kicad_sym")(options "")(descr ""))
+  (lib (name "esp32pcbbot-cache")(type "KiCad")(uri "${KIPRJMOD}/esp32pcbbot-cache.kicad_sym")(options "")(descr ""))
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/Libload/SamacSys_Parts.kicad_sym")(options "")(descr ""))
+  (lib (name "custom_components")(type "KiCad")(uri "${KIPRJMOD}/custom_components.kicad_sym")(options "")(descr ""))
 )
