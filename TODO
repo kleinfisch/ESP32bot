@@ -1,9 +1,10 @@
 #TODO
 Update no fill zone - DONE!
 Move 12C breakout to other side of dip switch - DONE!
-Change IR sensor
+add indicator LED
+Change IR sensor - DONE!
 Repair CP2102 circuitry
-fix BMS circuitry?
+fix BMS circuitry - DONE!
 Breakout usb electronics
 Move BMS module
 Put ESP32 on swappable board?
