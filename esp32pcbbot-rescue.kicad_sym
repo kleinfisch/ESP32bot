@@ -1,1692 +1,472 @@
-(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "12BHC186P1-GR-SamacSys_Parts" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at 19.05 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "12BHC186P1-GR-SamacSys_Parts" (id 1) (at 19.05 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "12BHC186P1GR" (id 2) (at 19.05 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.mouser.co.il/datasheet/2/209/EaglePlastics_EPD_201001-1902272.pdf" (id 3) (at 19.05 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "1 \"18650\" Battery Holder" (id 4) (at 19.05 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "20.5" (id 5) (at 19.05 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "12BHC186P1-GR" (id 6) (at 19.05 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Eagle-Plastic-Devices/12BHC186P1-GR?qs=yqaQSyyJnNiNkNtwVjdKJQ%3D%3D" (id 7) (at 19.05 -10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "Eagle Plastic Devices" (id 8) (at 19.05 -12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "12BHC186P1-GR" (id 9) (at 19.05 -15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (symbol "12BHC186P1-GR-SamacSys_Parts_0_0"
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -7.62 0) (length 5.08)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "MH1" (effects (font (size 1.27 1.27))))
-        (number "MH1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -5.08 0) (length 5.08)
-        (name "MH2" (effects (font (size 1.27 1.27))))
-        (number "MH2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "12BHC186P1-GR-SamacSys_Parts_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 17.78 2.54)
-          (xy 17.78 -10.16)
-          (xy 5.08 -10.16)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "215299-4-SamacSys_Parts" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (id 0) (at 16.51 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "215299-4-SamacSys_Parts" (id 1) (at 16.51 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "RHDR4W78P0X254_1X4_1026X252X850P" (id 2) (at 16.51 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/215299-4.pdf" (id 3) (at 16.51 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "TE Connectivity 2.54mm 4 Pos 1 Row Straight PCB Socket Through Hole Socket Strip" (id 4) (at 16.51 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "8.5" (id 5) (at 16.51 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "TE Connectivity" (id 6) (at 16.51 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "215299-4" (id 7) (at 16.51 -10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "571-2152994" (id 8) (at 16.51 -12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/215299-4/?qs=DVXdagybtHf6CcuZEpBwpw%3D%3D" (id 9) (at 16.51 -15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (symbol "215299-4-SamacSys_Parts_0_0"
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -5.08 0) (length 5.08)
-        (name "3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -7.62 0) (length 5.08)
-        (name "4" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "215299-4-SamacSys_Parts_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 15.24 2.54)
-          (xy 15.24 -10.16)
-          (xy 5.08 -10.16)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "BATT_CHG_BOOST-SamacSys_Parts" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "B1" (id 0) (at 16.51 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BATT_CHG_BOOST-SamacSys_Parts" (id 1) (at 16.51 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "ESP32bot:BATT_CHG_BOOST" (id 2) (at 16.51 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 16.51 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "A simple integrated battery charge and boost module" (id 4) (at 16.51 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "8.5" (id 5) (at 16.51 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "MakerFocus" (id 6) (at 16.51 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "NaN" (id 7) (at 16.51 -10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "NaN" (id 8) (at 16.51 -12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "NaN" (id 9) (at 16.51 -15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (symbol "BATT_CHG_BOOST-SamacSys_Parts_0_0"
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -5.08 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -7.62 0) (length 5.08)
-        (name "BATT" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -10.16 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -12.7 0) (length 5.08)
-        (name "OUT" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "BATT_CHG_BOOST-SamacSys_Parts_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 15.24 2.54)
-          (xy 15.24 -15.24)
-          (xy 5.08 -15.24)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "BATT_OUT-power" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "BATT_OUT-power" (id 1) (at 0 3.556 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "BATT_OUT-power_0_1"
-      (polyline
-        (pts
-          (xy -0.762 1.27)
-          (xy 0 2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 0 2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy 0.762 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "BATT_OUT-power_1_1"
-      (pin power_in line (at 0 0 90) (length 0) hide
-        (name "+BATT" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "BMI055-SamacSys_Parts" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (id 0) (at 26.67 15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BMI055-SamacSys_Parts" (id 1) (at 26.67 12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "BMI055" (id 2) (at 26.67 10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/129773.pdf" (id 3) (at 26.67 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "IMUs - Inertial Measurement Units 6-Axis Inertia 3x4.5mm LGA-16" (id 4) (at 26.67 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "Bosch Sensortec" (id 5) (at 26.67 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "BMI055" (id 6) (at 26.67 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "262-BMI055" (id 7) (at 26.67 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMI055?qs=d72FGnIDsgRto2b9Ru3roQ%3D%3D" (id 8) (at 26.67 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Part Number" "BMI055" (id 9) (at 26.67 -10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/bmi055/bosch" (id 10) (at 26.67 -12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (symbol "BMI055-SamacSys_Parts_0_0"
-      (pin passive line (at 30.48 0 180) (length 5.08)
-        (name "INT2" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -12.7 0) (length 5.08)
-        (name "SDO2" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -10.16 0) (length 5.08)
-        (name "VDDIO" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -7.62 0) (length 5.08)
-        (name "INT3" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -5.08 0) (length 5.08)
-        (name "INT4" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "CSB1" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "SDO1" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 15.24 15.24 270) (length 5.08)
-        (name "INT1" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 30.48 -2.54 180) (length 5.08)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -5.08 180) (length 5.08)
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -7.62 180) (length 5.08)
-        (name "GNDA" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -10.16 180) (length 5.08)
-        (name "CSB2" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -12.7 180) (length 5.08)
-        (name "GNDIO" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -15.24 180) (length 5.08)
-        (name "PS" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 15.24 -30.48 90) (length 5.08)
-        (name "SCX" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 0) (length 5.08)
-        (name "SDX" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "BMI055-SamacSys_Parts_0_1"
-      (polyline
-        (pts
-          (xy 5.08 10.16)
-          (xy 25.4 10.16)
-          (xy 25.4 -25.4)
-          (xy 5.08 -25.4)
-          (xy 5.08 10.16)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "CP2102N-A01-GQFN28-Interface_USB" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at -7.62 31.75 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "CP2102N-A01-GQFN28-Interface_USB" (id 1) (at 26.67 31.75 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" (id 2) (at 11.43 -30.48 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 1.27 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "QFN*1EP*5x5mm*P0.5mm*" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CP2102N-A01-GQFN28-Interface_USB_0_1"
-      (rectangle (start -10.16 30.48) (end 10.16 -30.48)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-    )
-    (symbol "CP2102N-A01-GQFN28-Interface_USB_1_1"
-      (pin input line (at 12.7 12.7 180) (length 2.54)
-        (name "~{DCD}" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at -10.16 -10.16 0) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 12.7 5.08 180) (length 2.54)
-        (name "~{SUSPENDb}" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 12.7 2.54 180) (length 2.54)
-        (name "SUSPEND" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 12.7 -2.54 180) (length 2.54)
-        (name "CHREN" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 12.7 -7.62 180) (length 2.54)
-        (name "CHR1" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 12.7 -5.08 180) (length 2.54)
-        (name "CHR0" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 12.7 -20.32 180) (length 2.54)
-        (name "~{WAKEUP}/GPIO.3" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 12.7 -17.78 180) (length 2.54)
-        (name "RS485/GPIO.2" (effects (font (size 1.27 1.27))))
-        (number "17" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 12.7 -15.24 180) (length 2.54)
-        (name "~{RXT}/GPIO.1" (effects (font (size 1.27 1.27))))
-        (number "18" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 12.7 -12.7 180) (length 2.54)
-        (name "~{TXT}/GPIO.0" (effects (font (size 1.27 1.27))))
-        (number "19" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 12.7 10.16 180) (length 2.54)
-        (name "~{RI}/CLK" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 12.7 -27.94 180) (length 2.54)
-        (name "GPIO.6" (effects (font (size 1.27 1.27))))
-        (number "20" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 12.7 -25.4 180) (length 2.54)
-        (name "GPIO.5" (effects (font (size 1.27 1.27))))
-        (number "21" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 12.7 -22.86 180) (length 2.54)
-        (name "GPIO.4" (effects (font (size 1.27 1.27))))
-        (number "22" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 12.7 27.94 180) (length 2.54)
-        (name "~{CTS}" (effects (font (size 1.27 1.27))))
-        (number "23" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 12.7 25.4 180) (length 2.54)
-        (name "~{RTS}" (effects (font (size 1.27 1.27))))
-        (number "24" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 12.7 22.86 180) (length 2.54)
-        (name "RXD" (effects (font (size 1.27 1.27))))
-        (number "25" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 12.7 20.32 180) (length 2.54)
-        (name "TXD" (effects (font (size 1.27 1.27))))
-        (number "26" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 12.7 17.78 180) (length 2.54)
-        (name "~{DSR}" (effects (font (size 1.27 1.27))))
-        (number "27" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 12.7 15.24 180) (length 2.54)
-        (name "~{DTR}" (effects (font (size 1.27 1.27))))
-        (number "28" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -33.02 90) (length 2.54) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "29" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -33.02 90) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -12.7 15.24 0) (length 2.54)
-        (name "D+" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -12.7 12.7 0) (length 2.54)
-        (name "D-" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 33.02 270) (length 2.54)
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -2.54 33.02 270) (length 2.54)
-        (name "REGIN" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -12.7 17.78 0) (length 2.54)
-        (name "VBUS" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -12.7 22.86 0) (length 2.54)
-        (name "~{RSTb}" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "DS01C-254-S-12BE-SamacSys_Parts" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "S" (id 0) (at 29.21 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "DS01C-254-S-12BE-SamacSys_Parts" (id 1) (at 29.21 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "DS01C254S12BE" (id 2) (at 29.21 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/670/ds01_254-1777712.pdf" (id 3) (at 29.21 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "DIP Switches / SIP Switches 1 12 Positions, Through Hole, 2.54 mm Pitch, Slide Actuator, DIP Switch" (id 4) (at 29.21 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "7" (id 5) (at 29.21 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "CUI Inc." (id 6) (at 29.21 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "DS01C-254-S-12BE" (id 7) (at 29.21 -10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "490-DS01C-254-S-12BE" (id 8) (at 29.21 -12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/DS01C-254-S-12BE?qs=wnTfsH77Xs7hI7TS%2FP%2FtWQ%3D%3D" (id 9) (at 29.21 -15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (symbol "DS01C-254-S-12BE-SamacSys_Parts_0_0"
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "COM_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 -10.16 180) (length 5.08)
-        (name "NO_5" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -12.7 0) (length 5.08)
-        (name "COM_6" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 -12.7 180) (length 5.08)
-        (name "NO_6" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 0) (length 5.08)
-        (name "COM_7" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 -15.24 180) (length 5.08)
-        (name "NO_7" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -17.78 0) (length 5.08)
-        (name "COM_8" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 -17.78 180) (length 5.08)
-        (name "NO_8" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -20.32 0) (length 5.08)
-        (name "COM_9" (effects (font (size 1.27 1.27))))
-        (number "17" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 -20.32 180) (length 5.08)
-        (name "NO_9" (effects (font (size 1.27 1.27))))
-        (number "18" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -22.86 0) (length 5.08)
-        (name "COM_10" (effects (font (size 1.27 1.27))))
-        (number "19" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 0 180) (length 5.08)
-        (name "NO_1" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 -22.86 180) (length 5.08)
-        (name "NO_10" (effects (font (size 1.27 1.27))))
-        (number "20" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -25.4 0) (length 5.08)
-        (name "COM_11" (effects (font (size 1.27 1.27))))
-        (number "21" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 -25.4 180) (length 5.08)
-        (name "NO_11" (effects (font (size 1.27 1.27))))
-        (number "22" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -27.94 0) (length 5.08)
-        (name "COM_12" (effects (font (size 1.27 1.27))))
-        (number "23" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 -27.94 180) (length 5.08)
-        (name "NO_12" (effects (font (size 1.27 1.27))))
-        (number "24" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "COM_2" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 -2.54 180) (length 5.08)
-        (name "NO_2" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -5.08 0) (length 5.08)
-        (name "COM_3" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 -5.08 180) (length 5.08)
-        (name "NO_3" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -7.62 0) (length 5.08)
-        (name "COM_4" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 -7.62 180) (length 5.08)
-        (name "NO_4" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -10.16 0) (length 5.08)
-        (name "COM_5" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "DS01C-254-S-12BE-SamacSys_Parts_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 27.94 2.54)
-          (xy 27.94 -30.48)
-          (xy 5.08 -30.48)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "EEEFC1V331P-SamacSys_Parts" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "C" (id 0) (at 8.89 6.35 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "EEEFC1V331P-SamacSys_Parts" (id 1) (at 8.89 3.81 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "EEEFK1V331P" (id 2) (at 8.89 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1172.pdf" (id 3) (at 8.89 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series" (id 4) (at 8.89 -3.81 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "Panasonic" (id 5) (at 8.89 -8.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "EEEFC1V331P" (id 6) (at 8.89 -11.43 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Part Number" "EEEFC1V331P" (id 7) (at 8.89 -19.05 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/eee-fc1v331p/panasonic" (id 8) (at 8.89 -21.59 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (symbol "EEEFC1V331P-SamacSys_Parts_0_0"
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "EEEFC1V331P-SamacSys_Parts_0_1"
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 5.08 0)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.064 1.778)
-          (xy 4.064 0.762)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.572 1.27)
-          (xy 3.556 1.27)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 0)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 5.08 -2.54)
-          (xy 5.842 -2.54)
-          (xy 5.842 2.54)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 2.54)
-          (xy 7.62 -2.54)
-          (xy 6.858 -2.54)
-          (xy 6.858 2.54)
-          (xy 7.62 2.54)
-        )
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type outline))
-      )
-    )
-  )
-  (symbol "ESP32-WROOM-32E-Espressif" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at 0 43.18 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "ESP32-WROOM-32E-Espressif" (id 1) (at 0 -41.91 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Espressif:ESP32-WROOM-32E" (id 2) (at 0 -44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 10.16 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "ESP32-WROOM-32E-Espressif_0_1"
-      (rectangle (start 33.02 41.91) (end -31.75 -40.64)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-    )
-    (symbol "ESP32-WROOM-32E-Espressif_1_1"
-      (text "ESP32-­WROOM­" (at 1.27 36.83 0)
-        (effects (font (size 2.54 2.54)))
-      )
-      (pin power_in line (at 35.56 -33.02 180) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 0 180) (length 2.54)
-        (name "DAC_1/ADC2_CH8/GPIO25" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 -2.54 180) (length 2.54)
-        (name "DAC_2/ADC2_CH9/GPIO26" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 -5.08 180) (length 2.54)
-        (name "ADC2_CH7/GPIO27" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -34.29 -19.05 0) (length 2.54)
-        (name "MTMS/GPIO14/ADC2_CH6" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -34.29 -21.59 0) (length 2.54)
-        (name "MTDI/GPIO12/ADC2_CH5" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 35.56 -35.56 180) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -34.29 -24.13 0) (length 2.54)
-        (name "MTCK/GPIO13/ADC2_CH4" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 35.56 -17.78 180) (length 2.54)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "17" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 35.56 -20.32 180) (length 2.54)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "18" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 35.56 -22.86 180) (length 2.54)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "19" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -34.29 -35.56 0) (length 2.54)
-        (name "3V3" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 35.56 -25.4 180) (length 2.54)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "20" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 35.56 -12.7 180) (length 2.54)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "21" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 35.56 -15.24 180) (length 2.54)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "22" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -34.29 -26.67 0) (length 2.54)
-        (name "MTDO/GPIO15/ADC2_CH3" (effects (font (size 1.27 1.27))))
-        (number "23" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 25.4 180) (length 2.54)
-        (name "ADC2_CH2/GPIO2" (effects (font (size 1.27 1.27))))
-        (number "24" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -34.29 13.97 0) (length 2.54)
-        (name "GPIO0/BOOT/ADC2_CH1" (effects (font (size 1.27 1.27))))
-        (number "25" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 22.86 180) (length 2.54)
-        (name "ADC2_CH0/GPIO4" (effects (font (size 1.27 1.27))))
-        (number "26" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 17.78 180) (length 2.54)
-        (name "GPIO16" (effects (font (size 1.27 1.27))))
-        (number "27" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 15.24 180) (length 2.54)
-        (name "GPIO17" (effects (font (size 1.27 1.27))))
-        (number "28" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 20.32 180) (length 2.54)
-        (name "GPIO5" (effects (font (size 1.27 1.27))))
-        (number "29" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -34.29 25.4 0) (length 2.54)
-        (name "EN/CHIP_PU" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 12.7 180) (length 2.54)
-        (name "GPIO18" (effects (font (size 1.27 1.27))))
-        (number "30" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 10.16 180) (length 2.54)
-        (name "GPIO19" (effects (font (size 1.27 1.27))))
-        (number "31" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 35.56 -27.94 180) (length 2.54)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "32" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 7.62 180) (length 2.54)
-        (name "GPIO21" (effects (font (size 1.27 1.27))))
-        (number "33" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -34.29 19.05 0) (length 2.54)
-        (name "U0RXD/GPIO3" (effects (font (size 1.27 1.27))))
-        (number "34" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -34.29 16.51 0) (length 2.54)
-        (name "U0TXD/GPIO1" (effects (font (size 1.27 1.27))))
-        (number "35" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 5.08 180) (length 2.54)
-        (name "GPIO22" (effects (font (size 1.27 1.27))))
-        (number "36" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 35.56 2.54 180) (length 2.54)
-        (name "GPIO23" (effects (font (size 1.27 1.27))))
-        (number "37" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 35.56 -38.1 180) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "38" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -34.29 8.89 0) (length 2.54)
-        (name "SENSOR_VP/GPIO36/ADC1_CH0" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -34.29 6.35 0) (length 2.54)
-        (name "SENSOR_VN/GPIO39/ADC1_CH3" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -34.29 3.81 0) (length 2.54)
-        (name "GPIO34/ADC1_CH6" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -34.29 1.27 0) (length 2.54)
-        (name "GPIO35/ADC1_CH7" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -34.29 -6.35 0) (length 2.54)
-        (name "32K_XP/GPIO32/ADC1_CH4" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -34.29 -11.43 0) (length 2.54)
-        (name "32K_XN/GPIO33/ADC1_CH5" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "HRO-TYPE-C-31-M-12-Type-C" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "USB" (id 0) (at -5.08 16.51 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "HRO-TYPE-C-31-M-12-Type-C" (id 1) (at -10.16 -1.27 90)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "" (id 2) (at 0 0 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "HRO-TYPE-C-31-M-12-Type-C_0_1"
-      (rectangle (start -11.43 15.24) (end -8.89 -17.78)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (rectangle (start 0 -17.78) (end -8.89 15.24)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-    )
-    (symbol "HRO-TYPE-C-31-M-12-Type-C_1_1"
-      (pin input line (at 2.54 13.97 180) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 2.54 -8.89 180) (length 2.54)
-        (name "CC2" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 2.54 -11.43 180) (length 2.54)
-        (name "VBUS" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 2.54 -13.97 180) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 2.54 -16.51 180) (length 2.54)
-        (name "SHIELD" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 2.54 11.43 180) (length 2.54)
-        (name "VBUS" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 2.54 8.89 180) (length 2.54)
-        (name "SBU2" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 2.54 6.35 180) (length 2.54)
-        (name "CC1" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 2.54 3.81 180) (length 2.54)
-        (name "DN2" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 2.54 1.27 180) (length 2.54)
-        (name "DP1" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 2.54 -1.27 180) (length 2.54)
-        (name "DN1" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 2.54 -3.81 180) (length 2.54)
-        (name "DP2" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 2.54 -6.35 180) (length 2.54)
-        (name "SBU1" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "JS202011SCQN-SamacSys_Parts" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "S" (id 0) (at 16.51 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "JS202011SCQN-SamacSys_Parts" (id 1) (at 16.51 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "JS202011SCQN" (id 2) (at 16.51 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "http://www.ckswitches.com/media/1422/js.pdf" (id 3) (at 16.51 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "Sub miniature slide switches" (id 4) (at 16.51 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "5.5" (id 5) (at 16.51 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "C & K COMPONENTS" (id 6) (at 16.51 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "JS202011SCQN" (id 7) (at 16.51 -10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "611-JS202011SCQN" (id 8) (at 16.51 -12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/JS202011SCQN?qs=LgMIjt8LuD95JYWxZ7NvZA%3D%3D" (id 9) (at 16.51 -15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Part Number" "JS202011SCQN" (id 10) (at 16.51 -17.78 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/js202011scqn/ck?region=nac" (id 11) (at 16.51 -20.32 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (symbol "JS202011SCQN-SamacSys_Parts_0_0"
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -5.08 0) (length 5.08)
-        (name "3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 20.32 -5.08 180) (length 5.08)
-        (name "4" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 20.32 -2.54 180) (length 5.08)
-        (name "5" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 20.32 0 180) (length 5.08)
-        (name "6" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "JS202011SCQN-SamacSys_Parts_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 15.24 2.54)
-          (xy 15.24 -7.62)
-          (xy 5.08 -7.62)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "L78M05ABDT-TR-SamacSys_Parts" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (id 0) (at 26.67 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "L78M05ABDT-TR-SamacSys_Parts" (id 1) (at 26.67 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "L78M05ABDTTR" (id 2) (at 26.67 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-L78M05ABDT-TR_C58069.pdf" (id 3) (at 26.67 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "Linear Voltage Regulators 5.0V 0.5A Positive" (id 4) (at 26.67 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "2.4" (id 5) (at 26.67 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "STMicroelectronics" (id 6) (at 26.67 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "L78M05ABDT-TR" (id 7) (at 26.67 -10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "511-L78M05ABDT-TR" (id 8) (at 26.67 -12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78M05ABDT-TR?qs=kdoK93vJZIY3pGnUXsif4w%3D%3D" (id 9) (at 26.67 -15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Part Number" "L78M05ABDT-TR" (id 10) (at 26.67 -17.78 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/l78m05abdt-tr/stmicroelectronics?region=nac" (id 11) (at 26.67 -20.32 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (symbol "L78M05ABDT-TR-SamacSys_Parts_0_0"
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "INPUT" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 0 180) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "OUTPUT" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "L78M05ABDT-TR-SamacSys_Parts_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 25.4 2.54)
-          (xy 25.4 -5.08)
-          (xy 5.08 -5.08)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "LM3940IMP-3.3_NOPB-LM3940IMP-3.3_NOPB" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "VR" (id 0) (at -12.7 6.0706 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "LM3940IMP-3.3_NOPB-LM3940IMP-3.3_NOPB" (id 1) (at -12.7 -9.0678 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "VREG_LM3940IMP-3.3/NOPB" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MANUFACTURER" "Texas Instruments" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MAXIMUM_PACKAGE_HEIGHT" "1.80 mm" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "PARTREV" "G" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "STANDARD" "Manufacturer Recommendations" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "ki_locked" "" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (symbol "LM3940IMP-3.3_NOPB-LM3940IMP-3.3_NOPB_0_0"
-      (rectangle (start -12.7 -7.62) (end 12.7 5.08)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin input line (at -17.78 2.54 0) (length 5.08)
-        (name "IN" (effects (font (size 1.016 1.016))))
-        (number "1" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at 17.78 -2.54 180) (length 5.08)
-        (name "GND_2" (effects (font (size 1.016 1.016))))
-        (number "2" (effects (font (size 1.016 1.016))))
-      )
-      (pin output line (at 17.78 2.54 180) (length 5.08)
-        (name "OUT" (effects (font (size 1.016 1.016))))
-        (number "3" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at 17.78 -5.08 180) (length 5.08)
-        (name "GND_4" (effects (font (size 1.016 1.016))))
-        (number "4" (effects (font (size 1.016 1.016))))
-      )
-    )
-  )
-  (symbol "Line sensor" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "IR" (id 0) (at 16.51 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Line sensor" (id 1) (at 16.51 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "custom_components:IR reflectivity sensor" (id 2) (at 16.51 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.amazon.com/DAOKI-TCRT5000-Infrared-Reflective-Photoelectric/dp/B00XT0PBC0/ref=sr_1_7?crid=1ET4W9UGF3LZR&keywords=ir+reflective+sensor&qid=1660854172&sprefix=ir+reflective+sensor%2Caps%2C253&sr=8-7" (id 3) (at 16.51 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "IR reflectivity sensor module, 3-4 pin" (id 4) (at 16.51 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "10" (id 5) (at 16.51 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "DAOKI" (id 6) (at 16.51 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "TS-US-109-CA" (id 7) (at 16.51 -10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "NaN" (id 8) (at 16.51 -12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "NaN" (id 9) (at 16.51 -15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (symbol "Line sensor_0_0"
-      (pin power_in line (at 0 0 0) (length 5.08)
-        (name "VCC" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -2.54 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 0 -5.08 0) (length 5.08)
-        (name "D0" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 0 -7.62 0) (length 5.08)
-        (name "A0" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "Line sensor_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 15.24 2.54)
-          (xy 15.24 -10.16)
-          (xy 5.08 -10.16)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "SSQ-120-01-L-D-SamacSys_Parts" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (id 0) (at 19.05 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SSQ-120-01-L-D-SamacSys_Parts" (id 1) (at 19.05 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "SSQ-120-XX-YYY-D" (id 2) (at 19.05 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "http://suddendocs.samtec.com/prints/ssq-1xx-xx-xxx-x-xx-xxx-xx-x-mkt.pdf" (id 3) (at 19.05 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "40 Position, .100&quot; Tiger Buy&trade; Socket Strip, Square Tail" (id 4) (at 19.05 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "SAMTEC" (id 5) (at 19.05 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "SSQ-120-01-L-D" (id 6) (at 19.05 -10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "200-SSQ12001LD" (id 7) (at 19.05 -12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/SSQ-120-01-L-D?qs=%252BZP6%2F%252BtExtDg5xp9qJK50A%3D%3D" (id 8) (at 19.05 -15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Part Number" "SSQ-120-01-L-D" (id 9) (at 19.05 -17.78 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/ssq-120-01-l-d/samtec" (id 10) (at 19.05 -20.32 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (symbol "SSQ-120-01-L-D-SamacSys_Parts_0_0"
-      (pin passive line (at 0 -48.26 0) (length 5.08)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -38.1 180) (length 5.08)
-        (name "10" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -35.56 0) (length 5.08)
-        (name "11" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -35.56 180) (length 5.08)
-        (name "12" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -33.02 0) (length 5.08)
-        (name "13" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -33.02 180) (length 5.08)
-        (name "14" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -30.48 0) (length 5.08)
-        (name "15" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -30.48 180) (length 5.08)
-        (name "16" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -27.94 0) (length 5.08)
-        (name "17" (effects (font (size 1.27 1.27))))
-        (number "17" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -27.94 180) (length 5.08)
-        (name "18" (effects (font (size 1.27 1.27))))
-        (number "18" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -25.4 0) (length 5.08)
-        (name "19" (effects (font (size 1.27 1.27))))
-        (number "19" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -48.26 180) (length 5.08)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -25.4 180) (length 5.08)
-        (name "20" (effects (font (size 1.27 1.27))))
-        (number "20" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -22.86 0) (length 5.08)
-        (name "21" (effects (font (size 1.27 1.27))))
-        (number "21" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -22.86 180) (length 5.08)
-        (name "22" (effects (font (size 1.27 1.27))))
-        (number "22" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -20.32 0) (length 5.08)
-        (name "23" (effects (font (size 1.27 1.27))))
-        (number "23" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -20.32 180) (length 5.08)
-        (name "24" (effects (font (size 1.27 1.27))))
-        (number "24" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -17.78 0) (length 5.08)
-        (name "25" (effects (font (size 1.27 1.27))))
-        (number "25" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -17.78 180) (length 5.08)
-        (name "26" (effects (font (size 1.27 1.27))))
-        (number "26" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -15.24 0) (length 5.08)
-        (name "27" (effects (font (size 1.27 1.27))))
-        (number "27" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -15.24 180) (length 5.08)
-        (name "28" (effects (font (size 1.27 1.27))))
-        (number "28" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -12.7 0) (length 5.08)
-        (name "29" (effects (font (size 1.27 1.27))))
-        (number "29" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -45.72 0) (length 5.08)
-        (name "3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -12.7 180) (length 5.08)
-        (name "30" (effects (font (size 1.27 1.27))))
-        (number "30" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -10.16 0) (length 5.08)
-        (name "31" (effects (font (size 1.27 1.27))))
-        (number "31" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -10.16 180) (length 5.08)
-        (name "32" (effects (font (size 1.27 1.27))))
-        (number "32" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -7.62 0) (length 5.08)
-        (name "33" (effects (font (size 1.27 1.27))))
-        (number "33" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -7.62 180) (length 5.08)
-        (name "34" (effects (font (size 1.27 1.27))))
-        (number "34" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -5.08 0) (length 5.08)
-        (name "35" (effects (font (size 1.27 1.27))))
-        (number "35" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -5.08 180) (length 5.08)
-        (name "36" (effects (font (size 1.27 1.27))))
-        (number "36" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "37" (effects (font (size 1.27 1.27))))
-        (number "37" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -2.54 180) (length 5.08)
-        (name "38" (effects (font (size 1.27 1.27))))
-        (number "38" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "39" (effects (font (size 1.27 1.27))))
-        (number "39" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -45.72 180) (length 5.08)
-        (name "4" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 0 180) (length 5.08)
-        (name "40" (effects (font (size 1.27 1.27))))
-        (number "40" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -43.18 0) (length 5.08)
-        (name "5" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -43.18 180) (length 5.08)
-        (name "6" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -40.64 0) (length 5.08)
-        (name "7" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -40.64 180) (length 5.08)
-        (name "8" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -38.1 0) (length 5.08)
-        (name "9" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "SSQ-120-01-L-D-SamacSys_Parts_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 17.78 2.54)
-          (xy 17.78 -50.8)
-          (xy 5.08 -50.8)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "TB002-500-02BE-SamacSys_Parts" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (id 0) (at 16.51 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TB002-500-02BE-SamacSys_Parts" (id 1) (at 16.51 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TB00250002BE" (id 2) (at 16.51 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/tb002_500-1550579.pdf" (id 3) (at 16.51 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount" (id 4) (at 16.51 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "10.4" (id 5) (at 16.51 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "CUI Inc." (id 6) (at 16.51 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "TB002-500-02BE" (id 7) (at 16.51 -10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "490-TB002-500-02BE" (id 8) (at 16.51 -12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D" (id 9) (at 16.51 -15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Part Number" "TB002-500-02BE" (id 10) (at 16.51 -17.78 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/tb002-500-02be/cui-devices?region=nac" (id 11) (at 16.51 -20.32 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (symbol "TB002-500-02BE-SamacSys_Parts_0_0"
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "TB002-500-02BE-SamacSys_Parts_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 15.24 2.54)
-          (xy 15.24 -5.08)
-          (xy 5.08 -5.08)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "TS-1187A-B-A-B-SamacSys_Parts" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "S" (id 0) (at 26.67 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TS-1187A-B-A-B-SamacSys_Parts" (id 1) (at 26.67 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TS1187ABAB" (id 2) (at 26.67 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "http://www.helloxkb.com/public/images/pdf/TS-1187A-B-A-B-.pdf" (id 3) (at 26.67 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "Tactile Switches SPST 5.10mm x 5.10mm 0.40mm 50mA @ 12VDC SMD RoHS" (id 4) (at 26.67 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "4.05" (id 5) (at 26.67 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "XKB Connectivity" (id 6) (at 26.67 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "TS-1187A-B-A-B" (id 7) (at 26.67 -10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (symbol "TS-1187A-B-A-B-SamacSys_Parts_0_0"
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "COM_1" (effects (font (size 1.27 1.27))))
-        (number "A1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 0 180) (length 5.08)
-        (name "COM_2" (effects (font (size 1.27 1.27))))
-        (number "B1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "NO_1" (effects (font (size 1.27 1.27))))
-        (number "C1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -2.54 180) (length 5.08)
-        (name "NO_2" (effects (font (size 1.27 1.27))))
-        (number "D1" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "TS-1187A-B-A-B-SamacSys_Parts_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 25.4 2.54)
-          (xy 25.4 -5.08)
-          (xy 5.08 -5.08)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "TYPE-C-31-M-12-TYPE-C-31-M-12" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (id 0) (at -12.7 13.462 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Value" "TYPE-C-31-M-12-TYPE-C-31-M-12" (id 1) (at -12.7 -13.462 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Footprint" "HRO_TYPE-C-31-M-12" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "STANDARD" "Manufacturer Recommendations" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MAXIMUM_PACKAGE_HEIGHT" "3.31mm" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "PARTREV" "A" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MANUFACTURER" "HRO Electronics" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "ki_locked" "" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (symbol "TYPE-C-31-M-12-TYPE-C-31-M-12_0_0"
-      (rectangle (start -12.7 -12.7) (end 12.7 12.7)
-        (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin power_in line (at 17.78 -10.16 180) (length 5.08)
-        (name "GND" (effects (font (size 1.016 1.016))))
-        (number "A1" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_out line (at 17.78 -10.16 180) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "A12" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 17.78 10.16 180) (length 5.08)
-        (name "VBUS" (effects (font (size 1.016 1.016))))
-        (number "A4" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -17.78 5.08 0) (length 5.08)
-        (name "CC1" (effects (font (size 1.016 1.016))))
-        (number "A5" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -17.78 2.54 0) (length 5.08)
-        (name "DP1" (effects (font (size 1.016 1.016))))
-        (number "A6" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -17.78 0 0) (length 5.08)
-        (name "DN1" (effects (font (size 1.016 1.016))))
-        (number "A7" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at -17.78 -2.54 0) (length 5.08)
-        (name "SBU1" (effects (font (size 1.016 1.016))))
-        (number "A8" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at 17.78 10.16 180) (length 2.54)
-        (name "VBUS" (effects (font (size 1.27 1.27))))
-        (number "A9" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 17.78 -10.16 180) (length 5.08)
-        (name "GND" (effects (font (size 1.016 1.016))))
-        (number "B1" (effects (font (size 1.016 1.016))))
-      )
-      (pin power_in line (at 17.78 -10.16 180) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "B12" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 17.78 10.16 180) (length 5.08)
-        (name "VBUS" (effects (font (size 1.016 1.016))))
-        (number "B4" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 17.78 -2.54 180) (length 5.08)
-        (name "CC2" (effects (font (size 1.016 1.016))))
-        (number "B5" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 17.78 0 180) (length 5.08)
-        (name "DP2" (effects (font (size 1.016 1.016))))
-        (number "B6" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 17.78 2.54 180) (length 5.08)
-        (name "DN2" (effects (font (size 1.016 1.016))))
-        (number "B7" (effects (font (size 1.016 1.016))))
-      )
-      (pin bidirectional line (at 17.78 5.08 180) (length 5.08)
-        (name "SBU2" (effects (font (size 1.016 1.016))))
-        (number "B8" (effects (font (size 1.016 1.016))))
-      )
-      (pin input line (at 17.78 10.16 180) (length 2.54)
-        (name "VBUS" (effects (font (size 1.27 1.27))))
-        (number "B9" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 17.78 -7.62 180) (length 5.08)
-        (name "SHIELD" (effects (font (size 1.016 1.016))))
-        (number "S1" (effects (font (size 1.016 1.016))))
-      )
-      (pin passive line (at 17.78 -7.62 180) (length 5.08)
-        (name "SHIELD" (effects (font (size 1.016 1.016))))
-        (number "S2" (effects (font (size 1.016 1.016))))
-      )
-      (pin passive line (at 17.78 -7.62 180) (length 5.08)
-        (name "SHIELD" (effects (font (size 1.016 1.016))))
-        (number "S3" (effects (font (size 1.016 1.016))))
-      )
-      (pin passive line (at 17.78 -7.62 180) (length 5.08)
-        (name "SHIELD" (effects (font (size 1.016 1.016))))
-        (number "S4" (effects (font (size 1.016 1.016))))
-      )
-    )
-  )
-)
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 12BHC186P1-GR-SamacSys_Parts
+#
+DEF 12BHC186P1-GR-SamacSys_Parts U 0 30 Y Y 1 F N
+F0 "U" 750 300 50 H V L CNN
+F1 "12BHC186P1-GR-SamacSys_Parts" 750 200 50 H V L CNN
+F2 "12BHC186P1GR" 750 100 50 H I L CNN
+F3 "https://www.mouser.co.il/datasheet/2/209/EaglePlastics_EPD_201001-1902272.pdf" 750 0 50 H I L CNN
+F4 "1 \"18650\" Battery Holder" 750 -100 50 H I L CNN "Description"
+F5 "20.5" 750 -200 50 H I L CNN "Height"
+F6 "12BHC186P1-GR" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Eagle-Plastic-Devices/12BHC186P1-GR?qs=yqaQSyyJnNiNkNtwVjdKJQ%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Eagle Plastic Devices" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "12BHC186P1-GR" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -300 200 R 50 50 0 0 P
+X MH1 MH1 0 -100 200 R 50 50 0 0 P
+X MH2 MH2 0 -200 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 215299-4-SamacSys_Parts-esp32pcbbot-rescue
+#
+DEF 215299-4-SamacSys_Parts-esp32pcbbot-rescue J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "215299-4-SamacSys_Parts-esp32pcbbot-rescue" 650 200 50 H V L CNN
+F2 "RHDR4W78P0X254_1X4_1026X252X850P" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/215299-4.pdf" 650 0 50 H I L CNN
+F4 "TE Connectivity 2.54mm 4 Pos 1 Row Straight PCB Socket Through Hole Socket Strip" 650 -100 50 H I L CNN "Description"
+F5 "8.5" 650 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "215299-4" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-2152994" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/215299-4/?qs=DVXdagybtHf6CcuZEpBwpw%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# BATT_CHG_BOOST-SamacSys_Parts
+#
+DEF BATT_CHG_BOOST-SamacSys_Parts B1 0 30 Y Y 1 F N
+F0 "B1" 650 300 50 H V L CNN
+F1 "BATT_CHG_BOOST-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "ESP32bot:BATT_CHG_BOOST" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "A simple integrated battery charge and boost module" 650 -100 50 H I L CNN "Description"
+F5 "8.5" 650 -200 50 H I L CNN "Height"
+F6 "MakerFocus" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "NaN" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "NaN" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "NaN" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -600 200 -600 200 100 N
+X VIN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X BATT 4 0 -300 200 R 50 50 0 0 P
+X GND 5 0 -400 200 R 50 50 0 0 P
+X OUT 6 0 -500 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# BMI055-SamacSys_Parts
+#
+DEF BMI055-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "BMI055-SamacSys_Parts" 1050 500 50 H V L CNN
+F2 "BMI055" 1050 400 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/129773.pdf" 1050 300 50 H I L CNN
+F4 "IMUs - Inertial Measurement Units 6-Axis Inertia 3x4.5mm LGA-16" 1050 200 50 H I L CNN "Description"
+F5 "Bosch Sensortec" 1050 0 50 H I L CNN "Manufacturer_Name"
+F6 "BMI055" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F7 "262-BMI055" 1050 -200 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMI055?qs=d72FGnIDsgRto2b9Ru3roQ%3D%3D" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F9 "BMI055" 1050 -400 50 H I L CNN "Arrow Part Number"
+F10 "https://www.arrow.com/en/products/bmi055/bosch" 1050 -500 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 400 1000 400 1000 -1000 200 -1000 200 400 N
+X INT2 1 1200 0 200 L 50 50 0 0 P
+X SDO2 10 0 -500 200 R 50 50 0 0 P
+X VDDIO 11 0 -400 200 R 50 50 0 0 P
+X INT3 12 0 -300 200 R 50 50 0 0 P
+X INT4 13 0 -200 200 R 50 50 0 0 P
+X CSB1 14 0 -100 200 R 50 50 0 0 P
+X SDO1 15 0 0 200 R 50 50 0 0 P
+X INT1 16 600 600 200 D 50 50 0 0 P
+X NC 2 1200 -100 200 L 50 50 0 0 N
+X VDD 3 1200 -200 200 L 50 50 0 0 P
+X GNDA 4 1200 -300 200 L 50 50 0 0 P
+X CSB2 5 1200 -400 200 L 50 50 0 0 P
+X GNDIO 6 1200 -500 200 L 50 50 0 0 P
+X PS 7 1200 -600 200 L 50 50 0 0 P
+X SCX 8 600 -1200 200 U 50 50 0 0 P
+X SDX 9 0 -600 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# CP2102N-A01-GQFN28-Interface_USB-esp32pcbbot-rescue
+#
+DEF CP2102N-A01-GQFN28-Interface_USB-esp32pcbbot-rescue U 0 20 Y Y 1 F N
+F0 "U" -300 1250 50 H V R CNN
+F1 "CP2102N-A01-GQFN28-Interface_USB-esp32pcbbot-rescue" 1050 1250 50 H V R CNN
+F2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" 450 -1200 50 H I L CNN
+F3 "" 50 -750 50 H I C CNN
+$FPLIST
+ QFN*1EP*5x5mm*P0.5mm*
+$ENDFPLIST
+DRAW
+S -400 1200 400 -1200 0 1 10 f
+X ~DCD 1 500 500 100 L 50 50 1 1 I
+X NC 10 -400 -400 100 R 50 50 1 1 N N
+X ~SUSPENDb 11 500 200 100 L 50 50 1 1 O
+X SUSPEND 12 500 100 100 L 50 50 1 1 O
+X CHREN 13 500 -100 100 L 50 50 1 1 O
+X CHR1 14 500 -300 100 L 50 50 1 1 O
+X CHR0 15 500 -200 100 L 50 50 1 1 O
+X ~WAKEUP~/GPIO.3 16 500 -800 100 L 50 50 1 1 B
+X RS485/GPIO.2 17 500 -700 100 L 50 50 1 1 B
+X ~RXT~/GPIO.1 18 500 -600 100 L 50 50 1 1 B
+X ~TXT~/GPIO.0 19 500 -500 100 L 50 50 1 1 B
+X ~RI~/CLK 2 500 400 100 L 50 50 1 1 B
+X GPIO.6 20 500 -1100 100 L 50 50 1 1 B
+X GPIO.5 21 500 -1000 100 L 50 50 1 1 B
+X GPIO.4 22 500 -900 100 L 50 50 1 1 B
+X ~CTS 23 500 1100 100 L 50 50 1 1 I
+X ~RTS 24 500 1000 100 L 50 50 1 1 O
+X RXD 25 500 900 100 L 50 50 1 1 I
+X TXD 26 500 800 100 L 50 50 1 1 O
+X ~DSR 27 500 700 100 L 50 50 1 1 I
+X ~DTR 28 500 600 100 L 50 50 1 1 O
+X GND 29 0 -1300 100 U 50 50 1 1 P N
+X GND 3 0 -1300 100 U 50 50 1 1 W
+X D+ 4 -500 600 100 R 50 50 1 1 B
+X D- 5 -500 500 100 R 50 50 1 1 B
+X VDD 6 0 1300 100 D 50 50 1 1 P
+X REGIN 7 -100 1300 100 D 50 50 1 1 W
+X VBUS 8 -500 700 100 R 50 50 1 1 I
+X ~RSTb 9 -500 900 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DS01C-254-S-12BE-SamacSys_Parts
+#
+DEF DS01C-254-S-12BE-SamacSys_Parts S 0 30 Y Y 1 F N
+F0 "S" 1150 300 50 H V L CNN
+F1 "DS01C-254-S-12BE-SamacSys_Parts" 1150 200 50 H V L CNN
+F2 "DS01C254S12BE" 1150 100 50 H I L CNN
+F3 "https://www.mouser.de/datasheet/2/670/ds01_254-1777712.pdf" 1150 0 50 H I L CNN
+F4 "DIP Switches / SIP Switches 1 12 Positions, Through Hole, 2.54 mm Pitch, Slide Actuator, DIP Switch" 1150 -100 50 H I L CNN "Description"
+F5 "7" 1150 -200 50 H I L CNN "Height"
+F6 "CUI Inc." 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "DS01C-254-S-12BE" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "490-DS01C-254-S-12BE" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/DS01C-254-S-12BE?qs=wnTfsH77Xs7hI7TS%2FP%2FtWQ%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -1200 200 -1200 200 100 N
+X COM_1 1 0 0 200 R 50 50 0 0 P
+X NO_5 10 1300 -400 200 L 50 50 0 0 P
+X COM_6 11 0 -500 200 R 50 50 0 0 P
+X NO_6 12 1300 -500 200 L 50 50 0 0 P
+X COM_7 13 0 -600 200 R 50 50 0 0 P
+X NO_7 14 1300 -600 200 L 50 50 0 0 P
+X COM_8 15 0 -700 200 R 50 50 0 0 P
+X NO_8 16 1300 -700 200 L 50 50 0 0 P
+X COM_9 17 0 -800 200 R 50 50 0 0 P
+X NO_9 18 1300 -800 200 L 50 50 0 0 P
+X COM_10 19 0 -900 200 R 50 50 0 0 P
+X NO_1 2 1300 0 200 L 50 50 0 0 P
+X NO_10 20 1300 -900 200 L 50 50 0 0 P
+X COM_11 21 0 -1000 200 R 50 50 0 0 P
+X NO_11 22 1300 -1000 200 L 50 50 0 0 P
+X COM_12 23 0 -1100 200 R 50 50 0 0 P
+X NO_12 24 1300 -1100 200 L 50 50 0 0 P
+X COM_2 3 0 -100 200 R 50 50 0 0 P
+X NO_2 4 1300 -100 200 L 50 50 0 0 P
+X COM_3 5 0 -200 200 R 50 50 0 0 P
+X NO_3 6 1300 -200 200 L 50 50 0 0 P
+X COM_4 7 0 -300 200 R 50 50 0 0 P
+X NO_4 8 1300 -300 200 L 50 50 0 0 P
+X COM_5 9 0 -400 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# EEEFC1V331P-SamacSys_Parts
+#
+DEF EEEFC1V331P-SamacSys_Parts C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEEFC1V331P-SamacSys_Parts" 350 150 50 H V L CNN
+F2 "EEEFK1V331P" 350 50 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1172.pdf" 350 -50 50 H I L CNN
+F4 "PANASONIC - EEEFC1V331P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 330 F, 35 V, EEEFC Series" 350 -150 50 H I L CNN "Description"
+F5 "Panasonic" 350 -350 50 H I L CNN "Manufacturer_Name"
+F6 "EEEFC1V331P" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F7 "EEEFC1V331P" 350 -750 50 H I L CNN "Arrow Part Number"
+F8 "https://www.arrow.com/en/products/eee-fc1v331p/panasonic" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ESP32-WROOM-32E-Espressif-esp32pcbbot-rescue
+#
+DEF ESP32-WROOM-32E-Espressif-esp32pcbbot-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 1700 50 H V C CNN
+F1 "ESP32-WROOM-32E-Espressif-esp32pcbbot-rescue" 0 -1650 50 H V C CNN
+F2 "Espressif:ESP32-WROOM-32E" 0 -1750 50 H I C CNN
+F3 "" 400 0 50 H I C CNN
+DRAW
+T 0 50 1450 100 0 1 1 ESP32-­WROOM­ Normal 0 C C
+S 1300 1650 -1250 -1600 0 1 0 f
+X GND 1 1400 -1300 100 L 50 50 1 1 W
+X DAC_1/ADC2_CH8/GPIO25 10 1400 0 100 L 50 50 1 1 B
+X DAC_2/ADC2_CH9/GPIO26 11 1400 -100 100 L 50 50 1 1 B
+X ADC2_CH7/GPIO27 12 1400 -200 100 L 50 50 1 1 B
+X MTMS/GPIO14/ADC2_CH6 13 -1350 -750 100 R 50 50 1 1 B
+X MTDI/GPIO12/ADC2_CH5 14 -1350 -850 100 R 50 50 1 1 B
+X GND 15 1400 -1400 100 L 50 50 1 1 W
+X MTCK/GPIO13/ADC2_CH4 16 -1350 -950 100 R 50 50 1 1 B
+X NC 17 1400 -700 100 L 50 50 1 1 N
+X NC 18 1400 -800 100 L 50 50 1 1 N
+X NC 19 1400 -900 100 L 50 50 1 1 N
+X 3V3 2 -1350 -1400 100 R 50 50 1 1 W
+X NC 20 1400 -1000 100 L 50 50 1 1 N
+X NC 21 1400 -500 100 L 50 50 1 1 N
+X NC 22 1400 -600 100 L 50 50 1 1 N
+X MTDO/GPIO15/ADC2_CH3 23 -1350 -1050 100 R 50 50 1 1 B
+X ADC2_CH2/GPIO2 24 1400 1000 100 L 50 50 1 1 B
+X GPIO0/BOOT/ADC2_CH1 25 -1350 550 100 R 50 50 1 1 B
+X ADC2_CH0/GPIO4 26 1400 900 100 L 50 50 1 1 B
+X GPIO16 27 1400 700 100 L 50 50 1 1 B
+X GPIO17 28 1400 600 100 L 50 50 1 1 B
+X GPIO5 29 1400 800 100 L 50 50 1 1 B
+X EN/CHIP_PU 3 -1350 1000 100 R 50 50 1 1 I
+X GPIO18 30 1400 500 100 L 50 50 1 1 B
+X GPIO19 31 1400 400 100 L 50 50 1 1 B
+X NC 32 1400 -1100 100 L 50 50 1 1 N
+X GPIO21 33 1400 300 100 L 50 50 1 1 B
+X U0RXD/GPIO3 34 -1350 750 100 R 50 50 1 1 B
+X U0TXD/GPIO1 35 -1350 650 100 R 50 50 1 1 B
+X GPIO22 36 1400 200 100 L 50 50 1 1 B
+X GPIO23 37 1400 100 100 L 50 50 1 1 B
+X GND 38 1400 -1500 100 L 50 50 1 1 W
+X SENSOR_VP/GPIO36/ADC1_CH0 4 -1350 350 100 R 50 50 1 1 I
+X SENSOR_VN/GPIO39/ADC1_CH3 5 -1350 250 100 R 50 50 1 1 I
+X GPIO34/ADC1_CH6 6 -1350 150 100 R 50 50 1 1 I
+X GPIO35/ADC1_CH7 7 -1350 50 100 R 50 50 1 1 I
+X 32K_XP/GPIO32/ADC1_CH4 8 -1350 -250 100 R 50 50 1 1 B
+X 32K_XN/GPIO33/ADC1_CH5 9 -1350 -450 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# JS202011SCQN-SamacSys_Parts
+#
+DEF JS202011SCQN-SamacSys_Parts S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "JS202011SCQN-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "JS202011SCQN" 650 100 50 H I L CNN
+F3 "http://www.ckswitches.com/media/1422/js.pdf" 650 0 50 H I L CNN
+F4 "Sub miniature slide switches" 650 -100 50 H I L CNN "Description"
+F5 "5.5" 650 -200 50 H I L CNN "Height"
+F6 "C & K COMPONENTS" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "JS202011SCQN" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "611-JS202011SCQN" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/CK/JS202011SCQN?qs=LgMIjt8LuD95JYWxZ7NvZA%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "JS202011SCQN" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/js202011scqn/ck?region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 800 -200 200 L 50 50 0 0 P
+X 5 5 800 -100 200 L 50 50 0 0 P
+X 6 6 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# L7905ACD2T-TR-SamacSys_Parts
+#
+DEF L7905ACD2T-TR-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "L7905ACD2T-TR-SamacSys_Parts" 850 200 50 H V L CNN
+F2 "TO254P1542X460-3N" 850 100 50 H I L CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000450.pdf" 850 0 50 H I L CNN
+F4 "Voltage Regulator -5V 1.5A D2PAK L7905ACD2T-TR, Voltage Regulator, Negative 1.5A -5 V, +/-2%, 3-Pin D2PAK" 850 -100 50 H I L CNN "Description"
+F5 "4.6" 850 -200 50 H I L CNN "Height"
+F6 "511-L7905ACD2T-TR" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7905ACD2T-TR?qs=22WmWNTp1rqzB5VVdeF8cw%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "L7905ACD2T-TR" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+X GND 1 0 0 200 R 50 50 0 0 W
+X OUT 3 0 -100 200 R 50 50 0 0 O
+X IN 4 1000 0 200 L 50 50 0 0 I
+ENDDRAW
+ENDDEF
+#
+# LM3940IMP-3.3_NOPB-LM3940IMP-3.3_NOPB
+#
+DEF LM3940IMP-3.3_NOPB-LM3940IMP-3.3_NOPB VR 0 40 Y Y 1 L N
+F0 "VR" -500 239 50 H V L BNN
+F1 "LM3940IMP-3.3_NOPB-LM3940IMP-3.3_NOPB" -500 -357 50 H V L BNN
+F2 "VREG_LM3940IMP-3.3/NOPB" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Texas Instruments" 0 0 50 H I L BNN "MANUFACTURER"
+F5 "1.80 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "G" 0 0 50 H I L BNN "PARTREV"
+F7 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+DRAW
+S -500 -300 500 200 0 0 10 f
+X IN 1 -700 100 200 R 40 40 0 0 I
+X GND_2 2 700 -100 200 L 40 40 0 0 W
+X OUT 3 700 100 200 L 40 40 0 0 O
+X GND_4 4 700 -200 200 L 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+# SSQ-120-01-L-D-SamacSys_Parts
+#
+DEF SSQ-120-01-L-D-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "SSQ-120-01-L-D-SamacSys_Parts" 750 200 50 H V L CNN
+F2 "SSQ-120-XX-YYY-D" 750 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/ssq-1xx-xx-xxx-x-xx-xxx-xx-x-mkt.pdf" 750 0 50 H I L CNN
+F4 "40 Position, .100&quot; Tiger Buy&trade; Socket Strip, Square Tail" 750 -100 50 H I L CNN "Description"
+F5 "SAMTEC" 750 -300 50 H I L CNN "Manufacturer_Name"
+F6 "SSQ-120-01-L-D" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "200-SSQ12001LD" 750 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.co.uk/ProductDetail/Samtec/SSQ-120-01-L-D?qs=%252BZP6%2F%252BtExtDg5xp9qJK50A%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "SSQ-120-01-L-D" 750 -700 50 H I L CNN "Arrow Part Number"
+F10 "https://www.arrow.com/en/products/ssq-120-01-l-d/samtec" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -2000 200 -2000 200 100 N
+X 1 1 0 -1900 200 R 50 50 0 0 P
+X 10 10 900 -1500 200 L 50 50 0 0 P
+X 11 11 0 -1400 200 R 50 50 0 0 P
+X 12 12 900 -1400 200 L 50 50 0 0 P
+X 13 13 0 -1300 200 R 50 50 0 0 P
+X 14 14 900 -1300 200 L 50 50 0 0 P
+X 15 15 0 -1200 200 R 50 50 0 0 P
+X 16 16 900 -1200 200 L 50 50 0 0 P
+X 17 17 0 -1100 200 R 50 50 0 0 P
+X 18 18 900 -1100 200 L 50 50 0 0 P
+X 19 19 0 -1000 200 R 50 50 0 0 P
+X 2 2 900 -1900 200 L 50 50 0 0 P
+X 20 20 900 -1000 200 L 50 50 0 0 P
+X 21 21 0 -900 200 R 50 50 0 0 P
+X 22 22 900 -900 200 L 50 50 0 0 P
+X 23 23 0 -800 200 R 50 50 0 0 P
+X 24 24 900 -800 200 L 50 50 0 0 P
+X 25 25 0 -700 200 R 50 50 0 0 P
+X 26 26 900 -700 200 L 50 50 0 0 P
+X 27 27 0 -600 200 R 50 50 0 0 P
+X 28 28 900 -600 200 L 50 50 0 0 P
+X 29 29 0 -500 200 R 50 50 0 0 P
+X 3 3 0 -1800 200 R 50 50 0 0 P
+X 30 30 900 -500 200 L 50 50 0 0 P
+X 31 31 0 -400 200 R 50 50 0 0 P
+X 32 32 900 -400 200 L 50 50 0 0 P
+X 33 33 0 -300 200 R 50 50 0 0 P
+X 34 34 900 -300 200 L 50 50 0 0 P
+X 35 35 0 -200 200 R 50 50 0 0 P
+X 36 36 900 -200 200 L 50 50 0 0 P
+X 37 37 0 -100 200 R 50 50 0 0 P
+X 38 38 900 -100 200 L 50 50 0 0 P
+X 39 39 0 0 200 R 50 50 0 0 P
+X 4 4 900 -1800 200 L 50 50 0 0 P
+X 40 40 900 0 200 L 50 50 0 0 P
+X 5 5 0 -1700 200 R 50 50 0 0 P
+X 6 6 900 -1700 200 L 50 50 0 0 P
+X 7 7 0 -1600 200 R 50 50 0 0 P
+X 8 8 900 -1600 200 L 50 50 0 0 P
+X 9 9 0 -1500 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TB002-500-02BE-SamacSys_Parts
+#
+DEF TB002-500-02BE-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "TB002-500-02BE-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "TB00250002BE" 650 100 50 H I L CNN
+F3 "https://eu.mouser.com/datasheet/2/670/tb002_500-1550579.pdf" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 2 poles, CUI Blue, slotted screw, PCB mount" 650 -100 50 H I L CNN "Description"
+F5 "10.4" 650 -200 50 H I L CNN "Height"
+F6 "CUI Inc." 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TB002-500-02BE" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "490-TB002-500-02BE" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TB002-500-02BE" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tb002-500-02be/cui-devices?region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TS-1187A-B-A-B-SamacSys_Parts
+#
+DEF TS-1187A-B-A-B-SamacSys_Parts S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "TS-1187A-B-A-B-SamacSys_Parts" 1050 200 50 H V L CNN
+F2 "TS1187ABAB" 1050 100 50 H I L CNN
+F3 "http://www.helloxkb.com/public/images/pdf/TS-1187A-B-A-B-.pdf" 1050 0 50 H I L CNN
+F4 "Tactile Switches SPST 5.10mm x 5.10mm 0.40mm 50mA @ 12VDC SMD RoHS" 1050 -100 50 H I L CNN "Description"
+F5 "4.05" 1050 -200 50 H I L CNN "Height"
+F6 "XKB Connectivity" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TS-1187A-B-A-B" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+X COM_1 A1 0 0 200 R 50 50 0 0 P
+X COM_2 B1 1200 0 200 L 50 50 0 0 P
+X NO_1 C1 0 -100 200 R 50 50 0 0 P
+X NO_2 D1 1200 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TYPE-C-31-M-12-TYPE-C-31-M-12
+#
+DEF TYPE-C-31-M-12-TYPE-C-31-M-12 J 0 40 Y Y 1 L N
+F0 "J" -500 530 50 H V L BNN
+F1 "TYPE-C-31-M-12-TYPE-C-31-M-12" -500 -530 50 H V L BNN
+F2 "HRO_TYPE-C-31-M-12" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F5 "3.31mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "A" 0 0 50 H I L BNN "PARTREV"
+F7 "HRO Electronics" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -500 -500 500 500 0 0 10 f
+X GND A1 700 -400 200 L 40 40 0 0 W
+X GND A12 700 -400 100 L 50 50 0 0 w
+X VBUS A4 700 400 200 L 40 40 0 0 W
+X CC1 A5 -700 200 200 R 40 40 0 0 B
+X DP1 A6 -700 100 200 R 40 40 0 0 B
+X DN1 A7 -700 0 200 R 40 40 0 0 B
+X SBU1 A8 -700 -100 200 R 40 40 0 0 B
+X VBUS A9 700 400 100 L 50 50 0 0 W
+X GND B1 700 -400 200 L 40 40 0 0 W
+X GND B12 700 -400 100 L 50 50 0 0 W
+X VBUS B4 700 400 200 L 40 40 0 0 W
+X CC2 B5 700 -100 200 L 40 40 0 0 B
+X DP2 B6 700 0 200 L 40 40 0 0 B
+X DN2 B7 700 100 200 L 40 40 0 0 B
+X SBU2 B8 700 200 200 L 40 40 0 0 B
+X VBUS B9 700 400 100 L 50 50 0 0 I
+X SHIELD S1 700 -300 200 L 40 40 0 0 P
+X SHIELD S2 700 -300 200 L 40 40 0 0 P
+X SHIELD S3 700 -300 200 L 40 40 0 0 P
+X SHIELD S4 700 -300 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
