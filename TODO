@@ -1,7 +1,7 @@
 #TODO
 Update no fill zone - DONE!
 Move 12C breakout to other side of dip switch - DONE!
-add indicator LED
+add indicator LED- add resistors
 Change IR sensor - DONE!
 Repair CP2102 circuitry - DONE?
 fix BMS circuitry - DONE!
